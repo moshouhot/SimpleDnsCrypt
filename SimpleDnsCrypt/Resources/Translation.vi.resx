@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="default_settings_network_cards" xml:space="preserve">
+    <value>Thẻ mạng</value>
+  </data>
+  <data name="default_settings_show_hidden_cards" xml:space="preserve">
+    <value>Hiện thẻ ẩn</value>
+  </data>
+  <data name="default_settings_service_header" xml:space="preserve">
+    <value>Dịch vụ</value>
+  </data>
+  <data name="default_settings_service" xml:space="preserve">
+    <value>Dịch vụ DNSCrypt</value>
+  </data>
+  <data name="default_settings_configuration" xml:space="preserve">
+    <value>Cấu hình</value>
+  </data>
+  <data name="default_settings_configuration_ipv4" xml:space="preserve">
+    <value>Sử dụng máy chủ IPv4</value>
+  </data>
+  <data name="default_settings_configuration_ipv4_tooltip" xml:space="preserve">
+    <value>Sử dụng máy chủ có thể truy cập qua IPv4</value>
+  </data>
+  <data name="default_settings_configuration_ipv6" xml:space="preserve">
+    <value>Sử dụng máy chủ IPv6</value>
+  </data>
+  <data name="default_settings_configuration_ipv6_tooltip" xml:space="preserve">
+    <value>Sử dụng máy chủ có thể truy cập qua IPv4 (không kích hoạt nết bạn không dùng kết nối IPv6</value>
+  </data>
+  <data name="default_settings_configuration_dnssec" xml:space="preserve">
+    <value>Chỉ máy chủ hỗ trợ DNSSEC</value>
+  </data>
+  <data name="default_settings_configuration_dnssec_tooltip" xml:space="preserve">
+    <value>Máy chủ phải hỗ trợ phần mở rộng bảo mật DNS</value>
+  </data>
+  <data name="default_settings_configuration_nolog" xml:space="preserve">
+    <value>Chỉ máy chủ không ghi nhật ký</value>
+  </data>
+  <data name="default_settings_configuration_nolog_tooltip" xml:space="preserve">
+    <value>Máy chủ không được ghi nhật ký truy vấn của người dùng</value>
+  </data>
+  <data name="default_settings_configuration_nofilter" xml:space="preserve">
+    <value>Chỉ máy chỉ không có bộ lọc</value>
+  </data>
+  <data name="default_settings_configuration_nofilter_tooltip" xml:space="preserve">
+    <value>Máy chủ không thực thi danh sách chặn của chính mình (dành cho Kiểm soát cha mẹ, chặn quảng cáo...)</value>
+  </data>
+  <data name="tabitem_mainmenu" xml:space="preserve">
+    <value>Danh mục chính</value>
+  </data>
+  <data name="loader_administrative_rights_available" xml:space="preserve">
+    <value>Quyền quản trị có sẵn</value>
+  </data>
+  <data name="loader_administrative_rights_missing" xml:space="preserve">
+    <value>Mất quyền quản trị!</value>
+  </data>
+  <data name="loader_checking_version" xml:space="preserve">
+    <value>Đang kiểm tra phiên bản mới...</value>
+  </data>
+  <data name="loader_new_version_found" xml:space="preserve">
+    <value>Một phiên bản mới hơn đã được tìm thấy: {0}</value>
+  </data>
+  <data name="loader_starting_update" xml:space="preserve">
+    <value>Đang bắt đầu cập nhật...</value>
+  </data>
+  <data name="loader_update_failed" xml:space="preserve">
+    <value>Cập nhật bị lỗi, tiếp tục...</value>
+  </data>
+  <data name="loader_latest_version" xml:space="preserve">
+    <value>Bạn đang sử dụng phiên bản mới nhất</value>
+  </data>
+  <data name="loader_unsigned" xml:space="preserve">
+    <value>chưa ký số</value>
+  </data>
+  <data name="loader_missing" xml:space="preserve">
+    <value>còn thiếu</value>
+  </data>
+  <data name="loader_downloading_signature" xml:space="preserve">
+    <value>Đang tải về chữ kỹ số...</value>
+  </data>
+  <data name="loader_downloading_installer" xml:space="preserve">
+    <value>Đang tải về cài đặt...</value>
+  </data>
+  <data name="loader_starting" xml:space="preserve">
+    <value>Đang bắt đầu...</value>
+  </data>
+  <data name="loader_validate_folder" xml:space="preserve">
+    <value>Xác nhận {0} thư mục</value>
+  </data>
+  <data name="loader_loading_network_cards" xml:space="preserve">
+    <value>Đang đọc thẻ mạng...</value>
+  </data>
+  <data name="loader_failed_loading" xml:space="preserve">
+    <value>Không thể đọc {0}</value>
+  </data>
+  <data name="loader_successfully_loaded" xml:space="preserve">
+    <value>{0} đã đọc thành công</value>
+  </data>
+  <data name="loader_loading" xml:space="preserve">
+    <value>Đang đọc {0}...</value>
+  </data>
+  <data name="loader_missing_files" xml:space="preserve">
+    <value>Thiếu tệp trong thư mục {0}: \n{1}\n\n. Hãy nghĩ đến bản cài đặt mới của {2}</value>
+  </data>
+  <data name="loader_all_files_available" xml:space="preserve">
+    <value>Tất cả yêu cầu tệp đã được tìm thấy</value>
+  </data>
+  <data name="about" xml:space="preserve">
+    <value>Thông tin</value>
+  </data>
+  <data name="about_software" xml:space="preserve">
+    <value>Phần mềm</value>
+  </data>
+  <data name="about_license" xml:space="preserve">
+    <value>Bản quyền</value>
+  </data>
+  <data name="about_view_on_github" xml:space="preserve">
+    <value>Xem trên GitHub</value>
+  </data>
+  <data name="tabitem_querylog" xml:space="preserve">
+    <value>Nhật ký truy vấn</value>
+  </data>
+  <data name="querylog" xml:space="preserve">
+    <value>Nhật ký truy vấn</value>
+  </data>
+  <data name="querylog_waiting_for_data" xml:space="preserve">
+    <value>đang chờ truy vấn DNS</value>
+  </data>
+  <data name="querylog_entry_count" xml:space="preserve">
+    <value>Mục:</value>
+  </data>
+  <data name="querylog_source_file" xml:space="preserve">
+    <value>Nguồn:</value>
+  </data>
+  <data name="querylog_button_clear" xml:space="preserve">
+    <value>Dọn danh sách</value>
+  </data>
+  <data name="querylog_button_block" xml:space="preserve">
+    <value>Chặn mục đã chọn</value>
+  </data>
+  <data name="domainblocklog" xml:space="preserve">
+    <value>Nhật ký tên miền</value>
+  </data>
+  <data name="domainblocklog_waiting_for_data" xml:space="preserve">
+    <value>đang chờ truy vấn DNS đã bị chặn</value>
+  </data>
+  <data name="domainblocklog_entry_count" xml:space="preserve">
+    <value>Mục:</value>
+  </data>
+  <data name="domainblocklog_source_file" xml:space="preserve">
+    <value>Nguồn:</value>
+  </data>
+  <data name="domainblocklog_button_clear" xml:space="preserve">
+    <value>Dọn danh sách</value>
+  </data>
+  <data name="tabitem_domainblocklog" xml:space="preserve">
+    <value>Nhật ký tên miền</value>
+  </data>
+  <data name="tabitem_addressblocklog" xml:space="preserve">
+    <value>Nhật ký địa chỉ</value>
+  </data>
+  <data name="tabitem_domainblacklist" xml:space="preserve">
+    <value>Danh sách chặn tên miền</value>
+  </data>
+  <data name="tabitem_addressblacklist" xml:space="preserve">
+    <value>Danh sách chặn IP</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>Cấu hình</value>
+  </data>
+  <data name="settings_domain_blacklist" xml:space="preserve">
+    <value>Hiện thẻ &quot;Danh sách chặn tên miền&quot;</value>
+  </data>
+  <data name="settings_address_blacklist" xml:space="preserve">
+    <value>Hiện thẻ &quot;Danh sách chặn IP&quot;</value>
+  </data>
+  <data name="settings_domain_block" xml:space="preserve">
+    <value>Hiện thẻ &quot;Nhật ký tên miền&quot;</value>
+  </data>
+  <data name="settings_address_block" xml:space="preserve">
+    <value>Hiện thẻ &quot;Nhật ký địa chỉ&quot;</value>
+  </data>
+  <data name="settings_query_log" xml:space="preserve">
+    <value>Hiện thẻ &quot;Nhật ký truy vấn&quot;</value>
+  </data>
+  <data name="tabitem_resolvers" xml:space="preserve">
+    <value>Máy chủ phân giải</value>
+  </data>
+  <data name="tabitem_advanced_settings" xml:space="preserve">
+    <value>Cấu hình nâng cao</value>
+  </data>
+  <data name="settings_advanced_settings" xml:space="preserve">
+    <value>Hiện thẻ &quot;Cấu hình nâng cao&quot;</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="dialog_message_uninstall" xml:space="preserve">
+    <value>Bạn có muốn gỡ bỏ dịch vụ Windows đã cài đặt?</value>
+  </data>
+  <data name="dialog_uninstall_title" xml:space="preserve">
+    <value>Gỡ bỏ dịch vụ</value>
+  </data>
+  <data name="advanced_settings_uninstall_title" xml:space="preserve">
+    <value>Gỡ bỏ dịch vụ</value>
+  </data>
+  <data name="advanced_settings_uninstall_text" xml:space="preserve">
+    <value>Gỡ bỏ dịch vụ Windows đã cài đặt</value>
+  </data>
+  <data name="advanced_settings_uninstall_button" xml:space="preserve">
+    <value>Gỡ bỏ dịch vụ</value>
+  </data>
+  <data name="default_settings_apply_settings" xml:space="preserve">
+    <value>Áp dụng cài đặt</value>
+  </data>
+  <data name="advanced_settings_dnscache" xml:space="preserve">
+    <value>DNS lưu tạm</value>
+  </data>
+  <data name="resolvers_dnscrypt_mode_header" xml:space="preserve">
+    <value>Chế độ DNSCrypt</value>
+  </data>
+  <data name="resolvers_dnscrypt_mode_description" xml:space="preserve">
+    <value>Trong chế độ tự động, tất cả các máy chủ hiện có đều được sử dụng. dnscrypt-proxy tự động chọn máy chủ phân giải nhanh nhất.</value>
+  </data>
+  <data name="resolvers_dnscrypt_automatic_mode" xml:space="preserve">
+    <value>Chế độ tự động</value>
+  </data>
+  <data name="disabled" xml:space="preserve">
+    <value>Đã vô hiệu hóa</value>
+  </data>
+  <data name="enabled" xml:space="preserve">
+    <value>Đã kích hoạt</value>
+  </data>
+  <data name="resolvers_available_resolvers_header" xml:space="preserve">
+    <value>Máy chủ phân giải sẵn có</value>
+  </data>
+  <data name="loader_redistributable_package_check" xml:space="preserve">
+    <value>Đang kiểm tra Microsoft Visual C++ Redistributable for Visual Studio 2017</value>
+  </data>
+  <data name="loader_redistributable_package_already_installed" xml:space="preserve">
+    <value>Microsoft Visual C++ Redistributable for Visual Studio 2017 đã được cài đặt</value>
+  </data>
+  <data name="loader_redistributable_package_installing" xml:space="preserve">
+    <value>Đang cài đặt: Microsoft Visual C++ Redistributable for Visual Studio 2017</value>
+  </data>
+  <data name="loader_redistributable_package_ready" xml:space="preserve">
+    <value>Microsoft Visual C++ Redistributable for Visual Studio 2017 đã cài đặt</value>
+  </data>
+  <data name="message_title_no_server_selected" xml:space="preserve">
+    <value>Không có máy chủ được chọn</value>
+  </data>
+  <data name="message_content_no_server_selected" xml:space="preserve">
+    <value>Phải có ít nhất 1 máy chủ được chọn. Nếu không, dnscrypt-proxy sử dụng tất cả các máy chủ tương ứng với các bộ lọc đã chọn.</value>
+  </data>
+  <data name="message_title_service_not_running" xml:space="preserve">
+    <value>Dịch vụ không chạy</value>
+  </data>
+  <data name="message_content_service_not_running" xml:space="preserve">
+    <value>Bạn nên bắt đầu dịch vụ DNSCrypt trước tiên!</value>
+  </data>
+  <data name="message_title_uninstallation_successful" xml:space="preserve">
+    <value>Quá trình gỡ cài đặt thành công</value>
+  </data>
+  <data name="message_content_uninstallation_successful" xml:space="preserve">
+    <value>Quá trình gỡ cài đặt đã thành công! Yêu cầu DNS không còn được mã hóa.</value>
+  </data>
+  <data name="message_title_uninstallation_error" xml:space="preserve">
+    <value>Lỗi quá trình gỡ cài đặt</value>
+  </data>
+  <data name="message_content_uninstallation_error" xml:space="preserve">
+    <value>Quá trình gỡ cài đặt không thể thực hiện. Hãy cố gắng ngừng dịch vụ bằng tay và gỡ cài đặt lại.</value>
+  </data>
+  <data name="open_log_directory" xml:space="preserve">
+    <value>Mở thư mục nhật ký</value>
+  </data>
+  <data name="settings_update_auto" xml:space="preserve">
+    <value>Kiểm tra cập nhật lúc khởi động</value>
+  </data>
+  <data name="settings_update_channel" xml:space="preserve">
+    <value>Kênh cập nhật:</value>
+  </data>
+  <data name="advanced_settings_dnscache_content" xml:space="preserve">
+    <value>Bộ nhớ cache DNS để giảm độ trễ và lưu lượng đi</value>
+  </data>
+  <data name="advanced_settings_blockipv6" xml:space="preserve">
+    <value>Chặn IPv6</value>
+  </data>
+  <data name="advanced_settings_blockipv6_content" xml:space="preserve">
+    <value>Ngay lập tức trả lời các truy vấn liên quan đến IPv6 với phản hồi rỗng</value>
+  </data>
+  <data name="advanced_settings_forcetcp" xml:space="preserve">
+    <value>Sử dụng cổng TCP</value>
+  </data>
+  <data name="advanced_settings_forcetcp_content" xml:space="preserve">
+    <value>Luôn sử dụng cổng TCP để kết nối với các máy chủ nguồn</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="message_title_new_whitelist_rule" xml:space="preserve">
+    <value>Thêm quy tắt loại trừ tên miền mới</value>
+  </data>
+  <data name="message_content_new_whitelist_rule" xml:space="preserve">
+    <value>Ví dụ: *.vietnam.com, quangcao.*, *sex*, bạn cũng có thể thêm danh sách các quy tắc</value>
+  </data>
+  <data name="message_title_new_blacklist_rule" xml:space="preserve">
+    <value>Thêm quy tắc chặn tên miền</value>
+  </data>
+  <data name="message_content_new_blacklist_rule" xml:space="preserve">
+    <value>Ví dụ: *.vietnam.com, quangcao.*, *sex*, bạn cũng có thể thêm lệnh chặn cho quy tắt, một tập tin chứa quy tắt như taptin.txt hoặc một địa chỉ URL bắt đầu với http:// hoặc https://.</value>
+  </data>
+  <data name="working_dialog_title" xml:space="preserve">
+    <value>Đợi chút! Công việc khó khăn đang thực hiện...</value>
+  </data>
+  <data name="button_select_path" xml:space="preserve">
+    <value>Chọn đường dẫn</value>
+  </data>
+  <data name="button_blacklist_build" xml:space="preserve">
+    <value>Xây dựng danh sách chặn dnscrypt-proxy</value>
+  </data>
+  <data name="button_blacklist_import" xml:space="preserve">
+    <value>Nhập các quy tắc chặn hiện có</value>
+  </data>
+  <data name="button_blacklist_export" xml:space="preserve">
+    <value>Xuất các quy tắc danh sách chặn</value>
+  </data>
+  <data name="button_blacklist_remove" xml:space="preserve">
+    <value>Xóa bỏ quy tắc chặn đã chọn</value>
+  </data>
+  <data name="button_blacklist_add" xml:space="preserve">
+    <value>Thêm quy tắc chặn mới</value>
+  </data>
+  <data name="button_whitelist_import" xml:space="preserve">
+    <value>Nhập các quy tắc loại trừ hiện có</value>
+  </data>
+  <data name="button_whitelist_export" xml:space="preserve">
+    <value>Xuất các quy tắc loại trừ</value>
+  </data>
+  <data name="button_whitelist_remove" xml:space="preserve">
+    <value>Gỡ bỏ quy tắc loại trừ đã chọn</value>
+  </data>
+  <data name="button_whitelist_add" xml:space="preserve">
+    <value>Thêm quy tắc loại trừ mới</value>
+  </data>
+  <data name="whitelist_rules_header" xml:space="preserve">
+    <value>Quy tắt loại trừ</value>
+  </data>
+  <data name="whitelist_rules_sub_header" xml:space="preserve">
+    <value>(tất cả các mục nhập sẽ bị bỏ qua trong quá trình tạo danh sách chặn)</value>
+  </data>
+  <data name="whitelist_rules_path" xml:space="preserve">
+    <value>Quy tắt loại trừ:</value>
+  </data>
+  <data name="blacklist_rules_header" xml:space="preserve">
+    <value>Quy tắc chặn</value>
+  </data>
+  <data name="blacklist_rules_sub_header" xml:space="preserve">
+    <value>(tất cả các mục được hợp nhất vào một danh sách chặn)</value>
+  </data>
+  <data name="blacklist_rules_path" xml:space="preserve">
+    <value>Quy tắt danh sách chặn:</value>
+  </data>
+  <data name="blacklist_path" xml:space="preserve">
+    <value>Danh sách chặn:</value>
+  </data>
+  <data name="blacklist_header" xml:space="preserve">
+    <value>Danh sách chặn và loại trừ</value>
+  </data>
+  <data name="advanced_settings_globalresolver" xml:space="preserve">
+    <value>Global Resolver</value>
+  </data>
+  <data name="advanced_settings_globalresolver_content" xml:space="preserve">
+    <value>Nếu bạn muốn máy tính này hoạt động như một thiết bị gateway cho những người khác</value>
+  </data>
+  <data name="advanced_settings_fallback_resolver" xml:space="preserve">
+    <value>Phân giải dự phòng</value>
+  </data>
+  <data name="advanced_settings_fallback_resolver_content" xml:space="preserve">
+    <value>Đây là máy phân giải DNS thông thường, không được mã hóa, sẽ chỉ được sử dụng cho các truy vấn một lần khi truy xuất danh sách các công cụ giải quyết đầu tiên, và chỉ khi cấu hình DNS hệ thống không hoạt động. Người ở Trung Quốc có thể cần sử dụng 114.114.114.114:53 tại đây.</value>
+  </data>
+  <data name="trayicon_tooltip" xml:space="preserve">
+    <value>Simple DNSCrypt</value>
+  </data>
+  <data name="trayicon_exit" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="address_settings_listen_addresses" xml:space="preserve">
+    <value>Địa chỉ theo dõi</value>
+  </data>
+  <data name="address_settings_manage_listen_addresses" xml:space="preserve">
+    <value>Quản lý địa chỉ theo dõi</value>
+  </data>
+  <data name="address_settings_description" xml:space="preserve">
+    <value>Danh sách địa chỉ cục bộ và cổng theo dõi. Có thể IPv4 hoặc IPv6</value>
+  </data>
+  <data name="address_settings_add" xml:space="preserve">
+    <value>Thêm địa chỉ theo dõi mới</value>
+  </data>
+  <data name="address_settings_remove" xml:space="preserve">
+    <value>Loại bỏ địa chỉ theo dõi đã chọn</value>
+  </data>
+  <data name="address_settings_restore" xml:space="preserve">
+    <value>Khôi phục địa chỉ theo dõi mặc định</value>
+  </data>
+  <data name="button_blacklist_clear" xml:space="preserve">
+    <value>Dọn dẹp danh sách chặn</value>
+  </data>
+  <data name="settings_tray_mode" xml:space="preserve">
+    <value>Ẩn vào khay khi đóng</value>
+  </data>
+  <data name="settings_start_in_tray" xml:space="preserve">
+    <value>Bắt đầu Simple DNSCrypt ẩn</value>
+  </data>
+  <data name="settings_update_silent" xml:space="preserve">
+    <value>Cập nhật ngầm phiên bản mới</value>
+  </data>
+  <data name="proxy_proxies" xml:space="preserve">
+    <value>Proxies</value>
+  </data>
+  <data name="proxy_manage_proxies" xml:space="preserve">
+    <value>Quản lý Proxies</value>
+  </data>
+  <data name="proxy_http_header" xml:space="preserve">
+    <value>Proxy HTTP/HTTPS</value>
+  </data>
+  <data name="proxy_http_sub" xml:space="preserve">
+    <value>Chỉ máy chủ DoH</value>
+  </data>
+  <data name="proxy_socks_header" xml:space="preserve">
+    <value>SOCKS proxy</value>
+  </data>
+  <data name="proxy_socks_sub" xml:space="preserve">
+    <value>Bạn có thể định tuyến tất cả các kết nối TCP đến một nút Tor cục bộ. Tor không hỗ trợ UDP, vì vậy bạn cũng nên bật Force TCP (Cài đặt nâng cao).</value>
+  </data>
+  <data name="advanced_settings_netprobe_timeout" xml:space="preserve">
+    <value>Netprobe Timeout</value>
+  </data>
+  <data name="advanced_settings_netprobe_timeout_content" xml:space="preserve">
+    <value>Thời gian tối đa (tính bằng giây) để chờ kết nối mạng trước khi khởi tạo proxy. Hữu ích nếu proxy được tự động khởi động khi khởi động và kết nối mạng không được đảm bảo sẽ khả dụng ngay lập tức. Sử dụng 0 để tắt.</value>
+  </data>
+  <data name="default_settings_configuration_dnscrypt" xml:space="preserve">
+    <value>DNSCrypt</value>
+  </data>
+  <data name="default_settings_configuration_dnscrypt_tooltip" xml:space="preserve">
+    <value>Sử dụng máy chủ thực hiện giao thức DNSCrypt</value>
+  </data>
+  <data name="default_settings_configuration_doh" xml:space="preserve">
+    <value>DNS-over-HTTPS</value>
+  </data>
+  <data name="default_settings_configuration_doh_tooltip" xml:space="preserve">
+    <value>Sử dụng máy chủ thực hiện giao thức DNS-over-HTTPS</value>
+  </data>
+  <data name="loader_restore_config" xml:space="preserve">
+    <value>Khôi phục {0}</value>
+  </data>
+  <data name="settings_backup_and_restore_config" xml:space="preserve">
+    <value>Sao lưu và khôi phục cấu hình dnscrypt khi cập nhật</value>
+  </data>
+  <data name="tabitem_cloakandforward" xml:space="preserve">
+    <value>Giấu và Chuyển tiếp</value>
+  </data>
+  <data name="cloaking" xml:space="preserve">
+    <value>Đang giấu</value>
+  </data>
+  <data name="cloaking_path" xml:space="preserve">
+    <value>Quy tắc giấu:</value>
+  </data>
+  <data name="cloaking_rules_header" xml:space="preserve">
+    <value>Quy tắc giấu</value>
+  </data>
+  <data name="cloaking_rules_sub_header" xml:space="preserve">
+    <value>(đang kích hoạt quy tắt giấu)</value>
+  </data>
+  <data name="button_cloaking_add" xml:space="preserve">
+    <value>Thêm quy tắt giấu mới</value>
+  </data>
+  <data name="button_cloaking_remove" xml:space="preserve">
+    <value>Loại bỏ quy tắt giấu đã chọn</value>
+  </data>
+  <data name="button_cloaking_import" xml:space="preserve">
+    <value>Nhập quy tắt giấu có sẵn</value>
+  </data>
+  <data name="button_cloaking_export" xml:space="preserve">
+    <value>Xuất quy tắt giấu</value>
+  </data>
+  <data name="rule_window_cloaking_header" xml:space="preserve">
+    <value>Thêm quy tắt giấu mới</value>
+  </data>
+  <data name="rule_window_cloaking_key_text" xml:space="preserve">
+    <value>Quy tắt nguồn (ví dụ: www.google.*)</value>
+  </data>
+  <data name="rule_window_cloaking_value_text" xml:space="preserve">
+    <value>Quy tắt đối tượng (ví dụ: forcesafesearch.google.com)</value>
+  </data>
+  <data name="forwarding" xml:space="preserve">
+    <value>Đang chuyển tiếp</value>
+  </data>
+  <data name="forwarding_path" xml:space="preserve">
+    <value>Quy tắt chuyển tiếp:</value>
+  </data>
+  <data name="forwarding_rules_header" xml:space="preserve">
+    <value>Quy tắt chuyển tiếp</value>
+  </data>
+  <data name="forwarding_rules_sub_header" xml:space="preserve">
+    <value>(đang kích hoạt quy tắt chuyển tiếp)</value>
+  </data>
+  <data name="button_forwarding_add" xml:space="preserve">
+    <value>Thêm quy tắt chuyển tiếp mới</value>
+  </data>
+  <data name="button_forwarding_remove" xml:space="preserve">
+    <value>Xóa quy tắt chuyển tiếp đã chọn</value>
+  </data>
+  <data name="button_forwarding_import" xml:space="preserve">
+    <value>Nhập quy tắt chuyển tiếp có sẵn</value>
+  </data>
+  <data name="button_forwarding_export" xml:space="preserve">
+    <value>Xuất quy tắt chuyển tiếp</value>
+  </data>
+  <data name="rule_window_forwarding_header" xml:space="preserve">
+    <value>Thêm quy tắt chuyển tiếp mới</value>
+  </data>
+  <data name="rule_window_forwarding_key_text" xml:space="preserve">
+    <value>Quy tắt nguồn (ví dụ: example.com)</value>
+  </data>
+  <data name="rule_window_forwarding_value_text" xml:space="preserve">
+    <value>Mục tiêu (ví dụ: 9,9.9.9,8.8.8.8)</value>
+  </data>
+  <data name="rule_window_add" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="rule_window_abort" xml:space="preserve">
+    <value>Từ chối</value>
+  </data>
+  <data name="settings_cloak_and_forward" xml:space="preserve">
+    <value>Hiện thẻ &quot;Giấu và Chuyển tiếp&quot;</value>
+  </data>
+  <data name="route_window_title" xml:space="preserve">
+    <value>Route (Anonymized DNS)</value>
+  </data>
+  <data name="route_via" xml:space="preserve">
+    <value>via following relay(s):</value>
+  </data>
+  <data name="route_drag_from_relays" xml:space="preserve">
+    <value>Drag &amp; Drop from available relays</value>
+  </data>
+  <data name="configure_routes_add" xml:space="preserve">
+    <value>Add route</value>
+  </data>
+  <data name="configure_routes_invalid" xml:space="preserve">
+    <value>Change route (invalid entries)</value>
+  </data>
+  <data name="configure_routes_change" xml:space="preserve">
+    <value>Change route</value>
+  </data>
+  <data name="configure_routes_unknown" xml:space="preserve">
+    <value>Change route (unknown status)</value>
+  </data>
+  <data name="advanced_settings_manage_fallback_resolvers" xml:space="preserve">
+    <value>manage fallback resolvers</value>
+  </data>
+  <data name="advanced_settings_fallback_resolvers" xml:space="preserve">
+    <value>Fallback Resolvers</value>
+  </data>
+  <data name="advanced_settings_fallback_resolvers_content" xml:space="preserve">
+    <value>These are normal, non-encrypted DNS resolvers, that will be only used for one-shot queries when retrieving the initial resolvers list, and only if the system DNS configuration doesn&apos;t work. No user application queries will ever be leaked through these resolvers, and they will not be used after IP addresses of resolvers URLs have been found. They will never be used if lists have already been cached, and if stamps don&apos;t include host names without IP addresses. They will not be used if the configured system DNS works. Resolvers supporting DNSSEC are recommended. People in China may need to use 114.114.114.114:53 here. If more than one resolver is specified, they will be tried in sequence.</value>
+  </data>
+</root>

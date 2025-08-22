@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="default_settings_network_cards" xml:space="preserve">
+    <value>Netzwerkkarten</value>
+  </data>
+  <data name="default_settings_show_hidden_cards" xml:space="preserve">
+    <value>Versteckte Netzwerkkarten zeigen</value>
+  </data>
+  <data name="default_settings_service_header" xml:space="preserve">
+    <value>Dienst</value>
+  </data>
+  <data name="default_settings_service" xml:space="preserve">
+    <value>DNSCrypt Dienst</value>
+  </data>
+  <data name="default_settings_configuration" xml:space="preserve">
+    <value>Konfiguration</value>
+  </data>
+  <data name="default_settings_configuration_ipv4" xml:space="preserve">
+    <value>IPv4 Server verwenden</value>
+  </data>
+  <data name="default_settings_configuration_ipv4_tooltip" xml:space="preserve">
+    <value>Server verwenden, welche über IPv4 erreichbar sind</value>
+  </data>
+  <data name="default_settings_configuration_ipv6" xml:space="preserve">
+    <value>IPv6 Server verwenden</value>
+  </data>
+  <data name="default_settings_configuration_ipv6_tooltip" xml:space="preserve">
+    <value>Server verwenden, welche über IPv6 erreichbar sind (sollte nur bei vorhandener IPv6-Konnektivität aktiviert werden)</value>
+  </data>
+  <data name="default_settings_configuration_dnssec" xml:space="preserve">
+    <value>Nur Server mit DNSSEC Unterstützung</value>
+  </data>
+  <data name="default_settings_configuration_dnssec_tooltip" xml:space="preserve">
+    <value>Server muss DNS-Sicherheitserweiterungen unterstützen</value>
+  </data>
+  <data name="default_settings_configuration_nolog" xml:space="preserve">
+    <value>Nur Server ohne Protokollierung</value>
+  </data>
+  <data name="default_settings_configuration_nolog_tooltip" xml:space="preserve">
+    <value>Server darf Benutzeranfragen nicht protokollieren</value>
+  </data>
+  <data name="default_settings_configuration_nofilter" xml:space="preserve">
+    <value>Nur Server ohne Filter</value>
+  </data>
+  <data name="default_settings_configuration_nofilter_tooltip" xml:space="preserve">
+    <value>Server darf keine eigene Blacklist erzwingen (für Kindersicherung, Werbeblockierung...)</value>
+  </data>
+  <data name="tabitem_mainmenu" xml:space="preserve">
+    <value>Hauptmenü</value>
+  </data>
+  <data name="loader_administrative_rights_available" xml:space="preserve">
+    <value>Administrative Rechte sind verfügbar</value>
+  </data>
+  <data name="loader_administrative_rights_missing" xml:space="preserve">
+    <value>Fehlende administrative Rechte!</value>
+  </data>
+  <data name="loader_checking_version" xml:space="preserve">
+    <value>Überprüfen auf neue Version. . .</value>
+  </data>
+  <data name="loader_new_version_found" xml:space="preserve">
+    <value>Eine neuere Version wurde gefunden: {0}</value>
+  </data>
+  <data name="loader_starting_update" xml:space="preserve">
+    <value>Starte Aktualisierung . . .</value>
+  </data>
+  <data name="loader_update_failed" xml:space="preserve">
+    <value>Update fehlgeschlagen, fahre fort . . .</value>
+  </data>
+  <data name="loader_latest_version" xml:space="preserve">
+    <value>Sie verwenden die neuste Version</value>
+  </data>
+  <data name="loader_unsigned" xml:space="preserve">
+    <value>unsigniert</value>
+  </data>
+  <data name="loader_missing" xml:space="preserve">
+    <value>fehlt</value>
+  </data>
+  <data name="loader_downloading_signature" xml:space="preserve">
+    <value>Lade Signatur herunter . . .</value>
+  </data>
+  <data name="loader_downloading_installer" xml:space="preserve">
+    <value>Lade Installer herunter . . .</value>
+  </data>
+  <data name="loader_starting" xml:space="preserve">
+    <value>Starte . . .</value>
+  </data>
+  <data name="loader_validate_folder" xml:space="preserve">
+    <value>Validiere {0} Verzeichnis</value>
+  </data>
+  <data name="loader_loading_network_cards" xml:space="preserve">
+    <value>Lade Netzwerkkarten . . .</value>
+  </data>
+  <data name="loader_failed_loading" xml:space="preserve">
+    <value>{0} kann nicht geladen werden</value>
+  </data>
+  <data name="loader_successfully_loaded" xml:space="preserve">
+    <value>{0} erfolgreich geladen</value>
+  </data>
+  <data name="loader_loading" xml:space="preserve">
+    <value>Lade {0} . . .</value>
+  </data>
+  <data name="loader_missing_files" xml:space="preserve">
+    <value>Vermisse Dateien im {0} Verzeichnis:\n{1}\n\nDenken Sie über eine Neuinstallation von {2} nach</value>
+  </data>
+  <data name="loader_all_files_available" xml:space="preserve">
+    <value>Alle benötigten Dateien wurden gefunden</value>
+  </data>
+  <data name="about" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="about_software" xml:space="preserve">
+    <value>Software</value>
+  </data>
+  <data name="about_license" xml:space="preserve">
+    <value>Lizenz</value>
+  </data>
+  <data name="about_view_on_github" xml:space="preserve">
+    <value>Auf Github anzeigen</value>
+  </data>
+  <data name="tabitem_querylog" xml:space="preserve">
+    <value>Query Log</value>
+  </data>
+  <data name="querylog" xml:space="preserve">
+    <value>Query Log</value>
+  </data>
+  <data name="querylog_waiting_for_data" xml:space="preserve">
+    <value>warte auf DNS Anfragen</value>
+  </data>
+  <data name="querylog_entry_count" xml:space="preserve">
+    <value>Einträge:</value>
+  </data>
+  <data name="querylog_source_file" xml:space="preserve">
+    <value>Quelle:</value>
+  </data>
+  <data name="querylog_button_clear" xml:space="preserve">
+    <value>Liste leeren</value>
+  </data>
+  <data name="querylog_button_block" xml:space="preserve">
+    <value>Ausgewählte blockieren</value>
+  </data>
+  <data name="domainblocklog" xml:space="preserve">
+    <value>Domain Block Log</value>
+    <comment>Fuzzy</comment>
+  </data>
+  <data name="domainblocklog_waiting_for_data" xml:space="preserve">
+    <value>warte auf blockierte DNS Anfragen</value>
+    <comment>Fuzzy</comment>
+  </data>
+  <data name="domainblocklog_entry_count" xml:space="preserve">
+    <value>Einträge:</value>
+    <comment>Fuzzy</comment>
+  </data>
+  <data name="domainblocklog_source_file" xml:space="preserve">
+    <value>Quelle:</value>
+    <comment>Fuzzy</comment>
+  </data>
+  <data name="domainblocklog_button_clear" xml:space="preserve">
+    <value>Liste leeren</value>
+    <comment>Fuzzy</comment>
+  </data>
+  <data name="tabitem_domainblocklog" xml:space="preserve">
+    <value>Domain Block Log</value>
+    <comment>Fuzzy</comment>
+  </data>
+  <data name="tabitem_addressblocklog" xml:space="preserve">
+    <value>Adressen Block Log</value>
+  </data>
+  <data name="tabitem_domainblacklist" xml:space="preserve">
+    <value>Domain Blackliste</value>
+  </data>
+  <data name="tabitem_addressblacklist" xml:space="preserve">
+    <value>Adressen Blackliste</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="settings_domain_blacklist" xml:space="preserve">
+    <value>&quot;Domain Blackliste&quot; in Tabs anzeigen</value>
+  </data>
+  <data name="settings_address_blacklist" xml:space="preserve">
+    <value>&quot;Adressen Blackliste&quot; in Tabs anzeigen</value>
+  </data>
+  <data name="settings_domain_block" xml:space="preserve">
+    <value>&quot;Domain Block Log&quot; in Tabs anzeigen</value>
+  </data>
+  <data name="settings_address_block" xml:space="preserve">
+    <value>&quot;Adressen Block Log&quot; in Tabs anzeigen</value>
+  </data>
+  <data name="settings_query_log" xml:space="preserve">
+    <value>&quot;Query Log&quot; in Tabs anzeigen</value>
+  </data>
+  <data name="tabitem_resolvers" xml:space="preserve">
+    <value>Resolver</value>
+  </data>
+  <data name="tabitem_advanced_settings" xml:space="preserve">
+    <value>Erweiterte Einstellungen</value>
+  </data>
+  <data name="settings_advanced_settings" xml:space="preserve">
+    <value>&quot;Erweiterte Einstellungen&quot; in Tabs anzeigen</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="dialog_message_uninstall" xml:space="preserve">
+    <value>Wollen Sie den installierten Windows-Dienst entfernen?</value>
+  </data>
+  <data name="dialog_uninstall_title" xml:space="preserve">
+    <value>Dienst deinstallieren</value>
+  </data>
+  <data name="advanced_settings_uninstall_title" xml:space="preserve">
+    <value>Dienst deinstallieren</value>
+  </data>
+  <data name="advanced_settings_uninstall_text" xml:space="preserve">
+    <value>Den installierten Windows Dienst entfernen</value>
+  </data>
+  <data name="advanced_settings_uninstall_button" xml:space="preserve">
+    <value>Service deinstallieren</value>
+  </data>
+  <data name="default_settings_apply_settings" xml:space="preserve">
+    <value>Einstellungen anwenden</value>
+  </data>
+  <data name="advanced_settings_dnscache" xml:space="preserve">
+    <value>DNS-Cache</value>
+  </data>
+  <data name="resolvers_dnscrypt_mode_header" xml:space="preserve">
+    <value>DNSCrypt Modus</value>
+  </data>
+  <data name="resolvers_dnscrypt_mode_description" xml:space="preserve">
+    <value>Im automatischen Modus werden alle verfügbaren Server verwendet. dnscrypt-proxy wählt automatisch die schnellsten Resolver.</value>
+  </data>
+  <data name="resolvers_dnscrypt_automatic_mode" xml:space="preserve">
+    <value>Automatischer Modus</value>
+  </data>
+  <data name="disabled" xml:space="preserve">
+    <value>Deaktiviert</value>
+  </data>
+  <data name="enabled" xml:space="preserve">
+    <value>Aktiviert</value>
+  </data>
+  <data name="resolvers_available_resolvers_header" xml:space="preserve">
+    <value>Verfügbare Resolver</value>
+  </data>
+  <data name="loader_redistributable_package_check" xml:space="preserve">
+    <value>Überprüfe Microsoft Visual C++ Redistributable für Visual Studio 2017</value>
+  </data>
+  <data name="loader_redistributable_package_already_installed" xml:space="preserve">
+    <value>Microsoft Visual C++ Redistributable für Visual Studio 2017 ist bereits installiert</value>
+  </data>
+  <data name="loader_redistributable_package_installing" xml:space="preserve">
+    <value>Installiere: Microsoft Visual C++ Redistributable für Visual Studio 2017</value>
+  </data>
+  <data name="loader_redistributable_package_ready" xml:space="preserve">
+    <value>Microsoft Visual C++ Redistributable für Visual Studio 2017 ist nun installiert</value>
+  </data>
+  <data name="message_title_no_server_selected" xml:space="preserve">
+    <value>Kein Server ausgewählt</value>
+  </data>
+  <data name="message_content_no_server_selected" xml:space="preserve">
+    <value>Es muss mindestens ein Server ausgewählt sein. Andernfalls verwendet dnscrypt-proxy alle Server, die den ausgewählten Filtern entsprechen.</value>
+  </data>
+  <data name="message_title_service_not_running" xml:space="preserve">
+    <value>Dienst läuft nicht</value>
+  </data>
+  <data name="message_content_service_not_running" xml:space="preserve">
+    <value>Sie sollten den DnsCrypt-Dienst zuerst starten!</value>
+  </data>
+  <data name="message_title_uninstallation_successful" xml:space="preserve">
+    <value>Deinstallation erfolgreich</value>
+  </data>
+  <data name="message_content_uninstallation_successful" xml:space="preserve">
+    <value>Die Deinstallation war erfolgreich! DNS-Anfragen werden nicht mehr verschlüsselt.</value>
+  </data>
+  <data name="message_title_uninstallation_error" xml:space="preserve">
+    <value>Deinstallationsfehler</value>
+  </data>
+  <data name="message_content_uninstallation_error" xml:space="preserve">
+    <value>Die Deinstallation konnte nicht durchgeführt werden. Versuchen Sie, den Dienst manuell zu stoppen und ihn erneut zu deinstallieren.</value>
+  </data>
+  <data name="open_log_directory" xml:space="preserve">
+    <value>Log-Verzeichnis öffnen</value>
+  </data>
+  <data name="settings_update_auto" xml:space="preserve">
+    <value>Beim Start auf neue Version prüfen</value>
+  </data>
+  <data name="settings_update_channel" xml:space="preserve">
+    <value>Update Kanal:</value>
+  </data>
+  <data name="advanced_settings_dnscache_content" xml:space="preserve">
+    <value>DNS-Cache zur Reduzierung der Latenzzeit und des ausgehenden Datenverkehrs</value>
+  </data>
+  <data name="advanced_settings_blockipv6" xml:space="preserve">
+    <value>Block IPv6</value>
+  </data>
+  <data name="advanced_settings_blockipv6_content" xml:space="preserve">
+    <value>Sofortige Beantwortung von IPv6-Abfragen mit einer leeren Antwort</value>
+  </data>
+  <data name="advanced_settings_forcetcp" xml:space="preserve">
+    <value>Force TCP</value>
+  </data>
+  <data name="advanced_settings_forcetcp_content" xml:space="preserve">
+    <value>Immer TCP verwenden, um eine Verbindung zum Upstream-Servern herzustellen</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="message_title_new_whitelist_rule" xml:space="preserve">
+    <value>Neue Whitelisten Regel hinzufügen</value>
+  </data>
+  <data name="message_content_new_whitelist_rule" xml:space="preserve">
+    <value>Beispiel: *.example.com, ads.*, *sex*, es ist ebenfalls möglich eine durch Komma getrennte Liste hinzuzufügen</value>
+  </data>
+  <data name="message_title_new_blacklist_rule" xml:space="preserve">
+    <value>Neue Blacklisten Regel hinzufügen</value>
+  </data>
+  <data name="message_content_new_blacklist_rule" xml:space="preserve">
+    <value>Beispiel: *.example.com, ads.*, *sex*, es ist ebenfalls möglich eine durch Komma getrennte Liste hinzuzufügen, eine Datei beginnend mit file:my-custom-rules.txt oder eine URL beginnend mit http:// oder https://.</value>
+  </data>
+  <data name="working_dialog_title" xml:space="preserve">
+    <value>Listen werden zusammengeführt . . .</value>
+  </data>
+  <data name="button_select_path" xml:space="preserve">
+    <value>Pfad wählen</value>
+  </data>
+  <data name="button_blacklist_build" xml:space="preserve">
+    <value>dnscrypt-proxy Blackliste bauen</value>
+  </data>
+  <data name="button_blacklist_import" xml:space="preserve">
+    <value>Existierende Blacklisten Regeln importieren</value>
+  </data>
+  <data name="button_blacklist_export" xml:space="preserve">
+    <value>Blacklisten Regeln exportieren</value>
+  </data>
+  <data name="button_blacklist_remove" xml:space="preserve">
+    <value>Ausgewählte Blacklisten Regel entfernen</value>
+  </data>
+  <data name="button_blacklist_add" xml:space="preserve">
+    <value>Neue Blacklisten Regel hinzufügen</value>
+  </data>
+  <data name="button_whitelist_import" xml:space="preserve">
+    <value>Existierende Whitelisten Regeln importieren</value>
+  </data>
+  <data name="button_whitelist_export" xml:space="preserve">
+    <value>Whitelisten Regeln exportieren</value>
+  </data>
+  <data name="button_whitelist_remove" xml:space="preserve">
+    <value>Ausgewählte Whitelisten Regel entfernen</value>
+  </data>
+  <data name="button_whitelist_add" xml:space="preserve">
+    <value>Neue Whitelisten Regel hinzufügen</value>
+  </data>
+  <data name="whitelist_rules_header" xml:space="preserve">
+    <value>Whitelisten Regeln</value>
+  </data>
+  <data name="whitelist_rules_sub_header" xml:space="preserve">
+    <value>(alle Einträge werden während der Blacklisten Generierung ignoriert)</value>
+  </data>
+  <data name="whitelist_rules_path" xml:space="preserve">
+    <value>Whitelisten Regeln:</value>
+  </data>
+  <data name="blacklist_rules_header" xml:space="preserve">
+    <value>Blacklisten Regeln</value>
+  </data>
+  <data name="blacklist_rules_sub_header" xml:space="preserve">
+    <value>(alle Einträge werden zu einer Blackliste zusammengeführt)</value>
+  </data>
+  <data name="blacklist_rules_path" xml:space="preserve">
+    <value>Blacklisten Regeln:</value>
+  </data>
+  <data name="blacklist_path" xml:space="preserve">
+    <value>Blackliste:</value>
+  </data>
+  <data name="blacklist_header" xml:space="preserve">
+    <value>Domain Blackliste und Whiteliste</value>
+  </data>
+  <data name="advanced_settings_globalresolver" xml:space="preserve">
+    <value>Globaler Resolver</value>
+  </data>
+  <data name="advanced_settings_globalresolver_content" xml:space="preserve">
+    <value>Wenn Sie möchten, dass dieser Computer als Gateway für andere Geräte (z.B. Smartphones) agiert</value>
+  </data>
+  <data name="advanced_settings_fallback_resolver" xml:space="preserve">
+    <value>Fallback Resolver</value>
+  </data>
+  <data name="advanced_settings_fallback_resolver_content" xml:space="preserve">
+    <value>Dies ist ein normaler, unverschlüsselter DNS-Resolver, der nur für die Abfrage der initialen Resolverliste verwendet wird und nur dann, wenn die DNS-Konfiguration des Systems nicht funktioniert. Nutzer in China müssen hier vielleicht 114.114.114.114:53 verwenden.</value>
+  </data>
+  <data name="trayicon_tooltip" xml:space="preserve">
+    <value>Simple DNSCrypt</value>
+  </data>
+  <data name="trayicon_exit" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="address_settings_listen_addresses" xml:space="preserve">
+    <value>Adressen</value>
+  </data>
+  <data name="address_settings_manage_listen_addresses" xml:space="preserve">
+    <value>Adressen verwalten</value>
+  </data>
+  <data name="address_settings_description" xml:space="preserve">
+    <value>Liste der lokalen Adressen und Ports, auf welchen dnscrypt-proxy angesprochen werden kann. 
+Kann IPv4 und/oder IPv6 sein.</value>
+  </data>
+  <data name="address_settings_add" xml:space="preserve">
+    <value>Neue Adresse hinzufügen</value>
+  </data>
+  <data name="address_settings_remove" xml:space="preserve">
+    <value>Ausgewählte Adresse entfernen</value>
+  </data>
+  <data name="address_settings_restore" xml:space="preserve">
+    <value>Standard wiederherstellen</value>
+  </data>
+  <data name="button_blacklist_clear" xml:space="preserve">
+    <value>Alle Blacklisten Regeln entfernen</value>
+  </data>
+  <data name="settings_tray_mode" xml:space="preserve">
+    <value>Beim Schließen minimieren</value>
+  </data>
+  <data name="settings_start_in_tray" xml:space="preserve">
+    <value>Simple DNSCrypt minimiert starten</value>
+  </data>
+  <data name="settings_update_silent" xml:space="preserve">
+    <value>Neue Version automatisch installieren</value>
+  </data>
+  <data name="proxy_proxies" xml:space="preserve">
+    <value>Proxies</value>
+  </data>
+  <data name="proxy_manage_proxies" xml:space="preserve">
+    <value>Proxies verwalten</value>
+  </data>
+  <data name="proxy_http_header" xml:space="preserve">
+    <value>HTTP/HTTPS Proxy</value>
+  </data>
+  <data name="proxy_http_sub" xml:space="preserve">
+    <value>Nur für DoH Server</value>
+  </data>
+  <data name="proxy_socks_header" xml:space="preserve">
+    <value>SOCKS Proxy</value>
+  </data>
+  <data name="proxy_socks_sub" xml:space="preserve">
+    <value>Alle TCP Verbindungen können über einen lokalen Tor Knoten geleitet werden. Tor unterstützt kein UDP, somit sollte Force TCP (Erweiterte Einstellungen) ebenfalls aktiviert werden</value>
+  </data>
+  <data name="advanced_settings_netprobe_timeout" xml:space="preserve">
+    <value>Netprobe Zeitüberschreitung</value>
+  </data>
+  <data name="advanced_settings_netprobe_timeout_content" xml:space="preserve">
+    <value>Maximale Zeit (in Sekunden) die gewartet wird, bis eine Netzwerk-Konnektivität besteht. Nützlich, wenn dnscrypt-proxy automatisch beim Start von Windows gestartet wird und nicht sofort eine Netzwerk-Konnektivität besteht. 0 bedeutet deaktiviert.</value>
+  </data>
+  <data name="default_settings_configuration_dnscrypt" xml:space="preserve">
+    <value>DNSCrypt</value>
+  </data>
+  <data name="default_settings_configuration_dnscrypt_tooltip" xml:space="preserve">
+    <value>Server verwenden die das DNSCrypt Protokoll unterstützen </value>
+  </data>
+  <data name="default_settings_configuration_doh" xml:space="preserve">
+    <value>DNS-over-HTTPS</value>
+  </data>
+  <data name="default_settings_configuration_doh_tooltip" xml:space="preserve">
+    <value>Server verwenden die das DNS-over-HTTPS Protokoll unterstützen </value>
+  </data>
+  <data name="loader_restore_config" xml:space="preserve">
+    <value>Wiederherstellen von {0}</value>
+  </data>
+  <data name="settings_backup_and_restore_config" xml:space="preserve">
+    <value>Konfiguration bei Updates erhalten</value>
+  </data>
+  <data name="tabitem_cloakandforward" xml:space="preserve">
+    <value>Cloak und Forward</value>
+  </data>
+  <data name="cloaking" xml:space="preserve">
+    <value>Cloaking</value>
+  </data>
+  <data name="cloaking_path" xml:space="preserve">
+    <value>Cloaking Regeln:</value>
+  </data>
+  <data name="cloaking_rules_header" xml:space="preserve">
+    <value>Cloaking Regeln</value>
+  </data>
+  <data name="cloaking_rules_sub_header" xml:space="preserve">
+    <value>(aktive cloaking Regeln)</value>
+  </data>
+  <data name="button_cloaking_add" xml:space="preserve">
+    <value>Neue Cloaking Regel hinzufügen</value>
+  </data>
+  <data name="button_cloaking_remove" xml:space="preserve">
+    <value>Ausgewählte Cloaking Regel entfernen</value>
+  </data>
+  <data name="button_cloaking_import" xml:space="preserve">
+    <value>Existierende Cloaking Regeln importieren</value>
+  </data>
+  <data name="button_cloaking_export" xml:space="preserve">
+    <value>Cloaking Regeln exportieren</value>
+  </data>
+  <data name="rule_window_cloaking_header" xml:space="preserve">
+    <value>Neue Cloaking Regel hinzufügen</value>
+  </data>
+  <data name="rule_window_cloaking_key_text" xml:space="preserve">
+    <value>Regel Quelle (bsp: www.google.*)</value>
+  </data>
+  <data name="rule_window_cloaking_value_text" xml:space="preserve">
+    <value>Regel Ziel (bsp: forcesafesearch.google.com)</value>
+  </data>
+  <data name="forwarding" xml:space="preserve">
+    <value>Forwarding</value>
+  </data>
+  <data name="forwarding_path" xml:space="preserve">
+    <value>Forwarding Regeln:</value>
+  </data>
+  <data name="forwarding_rules_header" xml:space="preserve">
+    <value>Forwarding Regeln</value>
+  </data>
+  <data name="forwarding_rules_sub_header" xml:space="preserve">
+    <value>(aktive forwarding Regeln)</value>
+  </data>
+  <data name="button_forwarding_add" xml:space="preserve">
+    <value>Neue Forwarding Regel hinzufügen</value>
+  </data>
+  <data name="button_forwarding_remove" xml:space="preserve">
+    <value>Ausgewählte Forwarding Regel entfernen</value>
+  </data>
+  <data name="button_forwarding_import" xml:space="preserve">
+    <value>Existierende Forwarding Regeln importieren</value>
+  </data>
+  <data name="button_forwarding_export" xml:space="preserve">
+    <value>Forwarding Regeln exportieren</value>
+  </data>
+  <data name="rule_window_forwarding_header" xml:space="preserve">
+    <value>Neue Forwarding Regel hinzufügen</value>
+  </data>
+  <data name="rule_window_forwarding_key_text" xml:space="preserve">
+    <value>Regel Quelle (bsp: example.com)</value>
+  </data>
+  <data name="rule_window_forwarding_value_text" xml:space="preserve">
+    <value>Regel Ziel (bsp: 9.9.9.9,8.8.8.8)</value>
+  </data>
+  <data name="rule_window_add" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="rule_window_abort" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="settings_cloak_and_forward" xml:space="preserve">
+    <value>&quot;Cloak und Forward&quot; in Tabs anzeigen</value>
+  </data>
+  <data name="route_window_title" xml:space="preserve">
+    <value>Route (Anonymisiertes DNS)</value>
+  </data>
+  <data name="route_via" xml:space="preserve">
+    <value>über folgende Relais:</value>
+  </data>
+  <data name="route_drag_from_relays" xml:space="preserve">
+    <value>Drag &amp; Drop von verfügbaren Relais</value>
+  </data>
+  <data name="configure_routes_add" xml:space="preserve">
+    <value>Routen hinzufügen</value>
+  </data>
+  <data name="configure_routes_invalid" xml:space="preserve">
+    <value>Routen ändern (fehlerhaft)</value>
+  </data>
+  <data name="configure_routes_change" xml:space="preserve">
+    <value>Routen ändern</value>
+  </data>
+  <data name="configure_routes_unknown" xml:space="preserve">
+    <value>Routen (unbekannter status)</value>
+  </data>
+  <data name="advanced_settings_manage_fallback_resolvers" xml:space="preserve">
+    <value>Fallback Resolver verwalten</value>
+  </data>
+  <data name="advanced_settings_fallback_resolvers" xml:space="preserve">
+    <value>Fallback Resolver</value>
+  </data>
+  <data name="advanced_settings_fallback_resolvers_content" xml:space="preserve">
+    <value>Dies sind normale, unverschlüsselte DNS-Resolver, die nur für einmalige Abfragen beim Abrufen der ursprünglichen Resolverliste verwendet werden, und nur, wenn die DNS-Konfiguration des Systems nicht funktioniert. Über diese Resolver werden niemals Anfragen von Benutzeranwendungen geleaked, und sie werden nicht mehr verwendet, nachdem die IP-Adressen der Resolver-URLs gefunden wurden. Sie werden niemals verwendet, wenn die Listen bereits zwischengespeichert wurden und wenn die Stamps keine Hostnamen ohne IP-Adressen enthalten. Sie werden nicht verwendet, wenn das konfigurierte System-DNS funktioniert. Resolver, die DNSSEC unterstützen, werden empfohlen. Nutzer in China müssen hier möglicherweise 114.114.114.114.114:53 verwenden. Wenn mehr als ein Resolver angegeben wird, werden sie nacheinander versucht.</value>
+  </data>
+</root>

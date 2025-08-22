@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="default_settings_network_cards" xml:space="preserve">
+    <value>Сетевые карты</value>
+  </data>
+  <data name="default_settings_show_hidden_cards" xml:space="preserve">
+    <value>Показать скрытые карты</value>
+  </data>
+  <data name="default_settings_service_header" xml:space="preserve">
+    <value>Служба</value>
+  </data>
+  <data name="default_settings_service" xml:space="preserve">
+    <value>Служба DNSCrypt</value>
+  </data>
+  <data name="default_settings_configuration" xml:space="preserve">
+    <value>Конфигурация</value>
+  </data>
+  <data name="default_settings_configuration_ipv4" xml:space="preserve">
+    <value>Использовать IPv4</value>
+  </data>
+  <data name="default_settings_configuration_ipv4_tooltip" xml:space="preserve">
+    <value>Использовать серверы, доступные по IPv4</value>
+  </data>
+  <data name="default_settings_configuration_ipv6" xml:space="preserve">
+    <value>Использовать IPv6</value>
+  </data>
+  <data name="default_settings_configuration_ipv6_tooltip" xml:space="preserve">
+    <value>Использовать серверы, доступные по IPv6 (не включайте, если у вас нет IPv6)</value>
+  </data>
+  <data name="default_settings_configuration_dnssec" xml:space="preserve">
+    <value>Только серверы с поддержкой DNSSEC</value>
+  </data>
+  <data name="default_settings_configuration_dnssec_tooltip" xml:space="preserve">
+    <value>Серверы с безопасностью DNS</value>
+  </data>
+  <data name="default_settings_configuration_nolog" xml:space="preserve">
+    <value>Только серверы без логирования</value>
+  </data>
+  <data name="default_settings_configuration_nolog_tooltip" xml:space="preserve">
+    <value>Серверы не ведущие статистику</value>
+  </data>
+  <data name="default_settings_configuration_nofilter" xml:space="preserve">
+    <value>Только серверы без фильтрации</value>
+  </data>
+  <data name="default_settings_configuration_nofilter_tooltip" xml:space="preserve">
+    <value>Серверы не применяющие свой черный список (родительский контроль, блокировка рекламы...)</value>
+  </data>
+  <data name="tabitem_mainmenu" xml:space="preserve">
+    <value>Главное</value>
+  </data>
+  <data name="loader_administrative_rights_available" xml:space="preserve">
+    <value>Административные права доступны</value>
+  </data>
+  <data name="loader_administrative_rights_missing" xml:space="preserve">
+    <value>Административных прав нет</value>
+  </data>
+  <data name="loader_checking_version" xml:space="preserve">
+    <value>Проверка новой версии...</value>
+  </data>
+  <data name="loader_new_version_found" xml:space="preserve">
+    <value>Обнаружена новая версия: {0}</value>
+  </data>
+  <data name="loader_starting_update" xml:space="preserve">
+    <value>Запуск обновления . . .</value>
+  </data>
+  <data name="loader_update_failed" xml:space="preserve">
+    <value>Не удалось обновить, продолжение . . .</value>
+  </data>
+  <data name="loader_latest_version" xml:space="preserve">
+    <value>Вы используете последнюю версию</value>
+  </data>
+  <data name="loader_unsigned" xml:space="preserve">
+    <value>неподписанный</value>
+  </data>
+  <data name="loader_missing" xml:space="preserve">
+    <value>отсутствует</value>
+  </data>
+  <data name="loader_downloading_signature" xml:space="preserve">
+    <value>Загрузка подписи . . .</value>
+  </data>
+  <data name="loader_downloading_installer" xml:space="preserve">
+    <value>Загрузка установщика . . .</value>
+  </data>
+  <data name="loader_starting" xml:space="preserve">
+    <value>Запуск . . .</value>
+  </data>
+  <data name="loader_validate_folder" xml:space="preserve">
+    <value>Проверка папки {0}</value>
+  </data>
+  <data name="loader_loading_network_cards" xml:space="preserve">
+    <value>Загрузка сетевых карт . . .</value>
+  </data>
+  <data name="loader_failed_loading" xml:space="preserve">
+    <value>Не удалось загрузить {0}</value>
+  </data>
+  <data name="loader_successfully_loaded" xml:space="preserve">
+    <value>{0} успешно загружен</value>
+  </data>
+  <data name="loader_loading" xml:space="preserve">
+    <value>Загрузка {0} . . .</value>
+  </data>
+  <data name="loader_missing_files" xml:space="preserve">
+    <value>Отсутствуют файлы в папке {0}:\n{1}\n\nЛучше переустановить {2}</value>
+  </data>
+  <data name="loader_all_files_available" xml:space="preserve">
+    <value>Все необходимые файлы найдены</value>
+  </data>
+  <data name="about" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="about_software" xml:space="preserve">
+    <value>Программа</value>
+  </data>
+  <data name="about_license" xml:space="preserve">
+    <value>Лицензия</value>
+  </data>
+  <data name="about_view_on_github" xml:space="preserve">
+    <value>Посмотреть на GitHub</value>
+  </data>
+  <data name="tabitem_querylog" xml:space="preserve">
+    <value>Лог запросов</value>
+  </data>
+  <data name="querylog" xml:space="preserve">
+    <value>Лог запросов</value>
+  </data>
+  <data name="querylog_waiting_for_data" xml:space="preserve">
+    <value>ожидание запросов DNS</value>
+  </data>
+  <data name="querylog_entry_count" xml:space="preserve">
+    <value>Записи:</value>
+  </data>
+  <data name="querylog_source_file" xml:space="preserve">
+    <value>Источник:</value>
+  </data>
+  <data name="querylog_button_clear" xml:space="preserve">
+    <value>Очистить список</value>
+  </data>
+  <data name="querylog_button_block" xml:space="preserve">
+    <value>Блокировать выбранные</value>
+  </data>
+  <data name="domainblocklog" xml:space="preserve">
+    <value>Лог блокировки доменов</value>
+  </data>
+  <data name="domainblocklog_waiting_for_data" xml:space="preserve">
+    <value>ожидание блокируемых запросов DNS</value>
+  </data>
+  <data name="domainblocklog_entry_count" xml:space="preserve">
+    <value>Записи:</value>
+  </data>
+  <data name="domainblocklog_source_file" xml:space="preserve">
+    <value>Источник:</value>
+  </data>
+  <data name="domainblocklog_button_clear" xml:space="preserve">
+    <value>Очистить список</value>
+  </data>
+  <data name="tabitem_domainblocklog" xml:space="preserve">
+    <value>Лог блокировки доменов</value>
+  </data>
+  <data name="tabitem_addressblocklog" xml:space="preserve">
+    <value>Лог блокировки адресов</value>
+  </data>
+  <data name="tabitem_domainblacklist" xml:space="preserve">
+    <value>Черный список доменов</value>
+  </data>
+  <data name="tabitem_addressblacklist" xml:space="preserve">
+    <value>Черный список адресов</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="settings_domain_blacklist" xml:space="preserve">
+    <value>Вкладка &quot;Черный список доменов&quot;</value>
+  </data>
+  <data name="settings_address_blacklist" xml:space="preserve">
+    <value>Вкладка &quot;Черный список адресов&quot;</value>
+  </data>
+  <data name="settings_domain_block" xml:space="preserve">
+    <value>Вкладка &quot;Лог блокировки доменов&quot;</value>
+  </data>
+  <data name="settings_address_block" xml:space="preserve">
+    <value>Вкладка &quot;Лог блокировки адресов&quot;</value>
+  </data>
+  <data name="settings_query_log" xml:space="preserve">
+    <value>Вкладка &quot;Лог запросов&quot;</value>
+  </data>
+  <data name="tabitem_resolvers" xml:space="preserve">
+    <value>Резольверы</value>
+  </data>
+  <data name="tabitem_advanced_settings" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="settings_advanced_settings" xml:space="preserve">
+    <value>Вкладка &quot;Дополнительно&quot;</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>нет</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>отмена</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="dialog_message_uninstall" xml:space="preserve">
+    <value>Вы хотите удалить установленную службу Windows?</value>
+  </data>
+  <data name="dialog_uninstall_title" xml:space="preserve">
+    <value>Удаление службы</value>
+  </data>
+  <data name="advanced_settings_uninstall_title" xml:space="preserve">
+    <value>Удаление службы</value>
+  </data>
+  <data name="advanced_settings_uninstall_text" xml:space="preserve">
+    <value>Удалить установленную службу Windows</value>
+  </data>
+  <data name="advanced_settings_uninstall_button" xml:space="preserve">
+    <value>Удалить службу</value>
+  </data>
+  <data name="default_settings_apply_settings" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="advanced_settings_dnscache" xml:space="preserve">
+    <value>DNS-кэш</value>
+  </data>
+  <data name="resolvers_dnscrypt_mode_header" xml:space="preserve">
+    <value>Режим DNSCrypt</value>
+  </data>
+  <data name="resolvers_dnscrypt_mode_description" xml:space="preserve">
+    <value>В автоматическом режиме используются все доступные серверы. DNScrypt-proxy автоматически выбирает самые быстрые резольверы.</value>
+  </data>
+  <data name="resolvers_dnscrypt_automatic_mode" xml:space="preserve">
+    <value>Автоматический режим</value>
+  </data>
+  <data name="disabled" xml:space="preserve">
+    <value>Отключен</value>
+  </data>
+  <data name="enabled" xml:space="preserve">
+    <value>Включен</value>
+  </data>
+  <data name="resolvers_available_resolvers_header" xml:space="preserve">
+    <value>Доступные резольверы</value>
+  </data>
+  <data name="loader_redistributable_package_check" xml:space="preserve">
+    <value>Проверка Microsoft Visual C++ Redistributable для Visual Studio 2017</value>
+  </data>
+  <data name="loader_redistributable_package_already_installed" xml:space="preserve">
+    <value>Microsoft Visual C++ Redistributable для Visual Studio 2017 уже установлен</value>
+  </data>
+  <data name="loader_redistributable_package_installing" xml:space="preserve">
+    <value>Установка: Microsoft Visual C++ Redistributable для Visual Studio 2017</value>
+  </data>
+  <data name="loader_redistributable_package_ready" xml:space="preserve">
+    <value>Microsoft Visual C++ Redistributable дляVisual Studio 2017 теперь установлен</value>
+  </data>
+  <data name="message_title_no_server_selected" xml:space="preserve">
+    <value>Не выбран ни один сервер</value>
+  </data>
+  <data name="message_content_no_server_selected" xml:space="preserve">
+    <value>Минимум один сервер должен быть выбран. Иначе, dnscrypt-proxy использует все серверы соответствующие фильтрам.</value>
+  </data>
+  <data name="message_title_service_not_running" xml:space="preserve">
+    <value>Служба не запущена</value>
+  </data>
+  <data name="message_content_service_not_running" xml:space="preserve">
+    <value>Запустите сначала службу DnsCrypt!</value>
+  </data>
+  <data name="message_title_uninstallation_successful" xml:space="preserve">
+    <value>Удаление успешно</value>
+  </data>
+  <data name="message_content_uninstallation_successful" xml:space="preserve">
+    <value>Удаление произошло успешно! DNS запросы больше не шифруются.</value>
+  </data>
+  <data name="message_title_uninstallation_error" xml:space="preserve">
+    <value>Ошибка удаления</value>
+  </data>
+  <data name="message_content_uninstallation_error" xml:space="preserve">
+    <value>Невозможно выполнить удаление. Попробуйте сначала остановить службу вручную и повторить снова.</value>
+  </data>
+  <data name="open_log_directory" xml:space="preserve">
+    <value>Открыть папку c логом событий</value>
+  </data>
+  <data name="settings_update_auto" xml:space="preserve">
+    <value>Проверять обновления при запуске</value>
+  </data>
+  <data name="settings_update_channel" xml:space="preserve">
+    <value>Канал обновлений:</value>
+  </data>
+  <data name="advanced_settings_dnscache_content" xml:space="preserve">
+    <value>Кэш DNS для уменьшения задержки и исх. траффика</value>
+  </data>
+  <data name="advanced_settings_blockipv6" xml:space="preserve">
+    <value>Блокировать IPv6</value>
+  </data>
+  <data name="advanced_settings_blockipv6_content" xml:space="preserve">
+    <value>Немедленно реагировать на IPv6 запросы пустым ответом</value>
+  </data>
+  <data name="advanced_settings_forcetcp" xml:space="preserve">
+    <value>Принудительно TCP</value>
+  </data>
+  <data name="advanced_settings_forcetcp_content" xml:space="preserve">
+    <value>Всегда использовать TCP для исходящих соединений</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="message_title_new_whitelist_rule" xml:space="preserve">
+    <value>Добавить новое правило белого списка</value>
+  </data>
+  <data name="message_content_new_whitelist_rule" xml:space="preserve">
+    <value>Пример: *.example.com, ads.*, *sex*, также можете добавить список правил, разделенных запятыми</value>
+  </data>
+  <data name="message_title_new_blacklist_rule" xml:space="preserve">
+    <value>Добавить новое правило черного списка</value>
+  </data>
+  <data name="message_content_new_blacklist_rule" xml:space="preserve">
+    <value>Пример: *.example.com, ads.*, *sex*, также можете добавить список правил, разделенных запятыми, файл - который начинается с file:my-custom-rules.txt или удаленный URL-адрес, который начинается с http:// или https://.</value>
+  </data>
+  <data name="working_dialog_title" xml:space="preserve">
+    <value>Списки объединяются . . .</value>
+  </data>
+  <data name="button_select_path" xml:space="preserve">
+    <value>Выберите путь</value>
+  </data>
+  <data name="button_blacklist_build" xml:space="preserve">
+    <value>Создать черный список dnscrypt-proxy</value>
+  </data>
+  <data name="button_blacklist_import" xml:space="preserve">
+    <value>Импорт правил черного списка</value>
+  </data>
+  <data name="button_blacklist_export" xml:space="preserve">
+    <value>Экспорт правил черного списка</value>
+  </data>
+  <data name="button_blacklist_remove" xml:space="preserve">
+    <value>Удалить выбранное правило черного списка</value>
+  </data>
+  <data name="button_blacklist_add" xml:space="preserve">
+    <value>Добавить новое правило черного списка</value>
+  </data>
+  <data name="button_whitelist_import" xml:space="preserve">
+    <value>Импорт правил белого списка</value>
+  </data>
+  <data name="button_whitelist_export" xml:space="preserve">
+    <value>Экспорт правил белого списка</value>
+  </data>
+  <data name="button_whitelist_remove" xml:space="preserve">
+    <value>Удалить выбранное правило из белого списка</value>
+  </data>
+  <data name="button_whitelist_add" xml:space="preserve">
+    <value>Добавить новое правило белого списка</value>
+  </data>
+  <data name="whitelist_rules_header" xml:space="preserve">
+    <value>Правила белого списка</value>
+  </data>
+  <data name="whitelist_rules_sub_header" xml:space="preserve">
+    <value>(все записи игнорируются во время генерации черного списка)</value>
+  </data>
+  <data name="whitelist_rules_path" xml:space="preserve">
+    <value>Правила белого списка:</value>
+  </data>
+  <data name="blacklist_rules_header" xml:space="preserve">
+    <value>Правила черного списка</value>
+  </data>
+  <data name="blacklist_rules_sub_header" xml:space="preserve">
+    <value>(все записи объединяются в черный список)</value>
+  </data>
+  <data name="blacklist_rules_path" xml:space="preserve">
+    <value>Правила черного списка:</value>
+  </data>
+  <data name="blacklist_path" xml:space="preserve">
+    <value>Черный список:</value>
+  </data>
+  <data name="blacklist_header" xml:space="preserve">
+    <value>Черный и белый списки доменов</value>
+  </data>
+  <data name="advanced_settings_globalresolver" xml:space="preserve">
+    <value>Глобальный резольвер</value>
+  </data>
+  <data name="advanced_settings_globalresolver_content" xml:space="preserve">
+    <value>Если хотите, чтобы этот компьютер был шлюзом для других устройств (смартфонов или др. компьютеров)</value>
+  </data>
+  <data name="advanced_settings_fallback_resolver" xml:space="preserve">
+    <value>Резервный резольвер</value>
+  </data>
+  <data name="advanced_settings_fallback_resolver_content" xml:space="preserve">
+    <value>Это обычные, не зашифрованные DNS-резольверы, которые будут использоваться одноразово при получении начального списка и только в случае, если DNS системы не работает. В Китае можно использовать 114.114.114.114:53.</value>
+  </data>
+  <data name="trayicon_tooltip" xml:space="preserve">
+    <value>Simple DNSCrypt</value>
+  </data>
+  <data name="trayicon_exit" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="address_settings_listen_addresses" xml:space="preserve">
+    <value>Прослушиваемые адреса</value>
+  </data>
+  <data name="address_settings_manage_listen_addresses" xml:space="preserve">
+    <value>Управление адресами</value>
+  </data>
+  <data name="address_settings_description" xml:space="preserve">
+    <value>Список локальных адресов и портов для прослушивания. Может быть IPv4 и/или IPv6.</value>
+  </data>
+  <data name="address_settings_add" xml:space="preserve">
+    <value>Добавить новый адрес прослушивания</value>
+  </data>
+  <data name="address_settings_remove" xml:space="preserve">
+    <value>Удалить выбранный адрес прослушивания</value>
+  </data>
+  <data name="address_settings_restore" xml:space="preserve">
+    <value>Восстановить адреса прослушивания по умолчанию</value>
+  </data>
+  <data name="button_blacklist_clear" xml:space="preserve">
+    <value>Очистить все правила черного списка</value>
+  </data>
+  <data name="settings_tray_mode" xml:space="preserve">
+    <value>Свернуть в трей при закрытии</value>
+  </data>
+  <data name="settings_start_in_tray" xml:space="preserve">
+    <value>Запускать свернутым в трей</value>
+  </data>
+  <data name="settings_update_silent" xml:space="preserve">
+    <value>Автоматическая установка новых версий</value>
+  </data>
+  <data name="proxy_proxies" xml:space="preserve">
+    <value>Прокси</value>
+  </data>
+  <data name="proxy_manage_proxies" xml:space="preserve">
+    <value>Управление прокси</value>
+  </data>
+  <data name="proxy_http_header" xml:space="preserve">
+    <value>HTTP/HTTPS прокси</value>
+  </data>
+  <data name="proxy_http_sub" xml:space="preserve">
+    <value>Только для DoH серверов</value>
+  </data>
+  <data name="proxy_socks_header" xml:space="preserve">
+    <value>SOCKS прокси</value>
+  </data>
+  <data name="proxy_socks_sub" xml:space="preserve">
+    <value>Можно маршрутизировать все TCP-соединения на локальный узел Tor. Tor не поддерживает UDP, поэтому надо включить &apos;Принудительно TCP&apos; на вкладке &apos;Дополнительно&apos;.</value>
+    <comment>Check what would fit into the dialogue.</comment>
+  </data>
+  <data name="advanced_settings_netprobe_timeout" xml:space="preserve">
+    <value>Таймаут проверки сети</value>
+  </data>
+  <data name="advanced_settings_netprobe_timeout_content" xml:space="preserve">
+    <value>Время (в секундах) ожидания подключения к сети, перед инициализацией прокси-сервера. Полезно, если прокси-сервер в автозагрузке, а сетевое подключение отложено или имеет задержку. Используйте 0 для отключения.</value>
+  </data>
+  <data name="default_settings_configuration_dnscrypt" xml:space="preserve">
+    <value>DNSCrypt</value>
+  </data>
+  <data name="default_settings_configuration_dnscrypt_tooltip" xml:space="preserve">
+    <value>Использовать серверы, реализующие DNSCrypt</value>
+  </data>
+  <data name="default_settings_configuration_doh" xml:space="preserve">
+    <value>DNS по HTTPS</value>
+  </data>
+  <data name="default_settings_configuration_doh_tooltip" xml:space="preserve">
+    <value>Использовать серверы, реализующие DNS по HTTPS</value>
+  </data>
+  <data name="loader_restore_config" xml:space="preserve">
+    <value>Восстановление {0}</value>
+  </data>
+  <data name="settings_backup_and_restore_config" xml:space="preserve">
+    <value>Бэкап и восстановление конфигурации dnscrypt при обновлении</value>
+  </data>
+  <data name="tabitem_cloakandforward" xml:space="preserve">
+    <value>Маскировка</value>
+  </data>
+  <data name="cloaking" xml:space="preserve">
+    <value>Маскировка</value>
+  </data>
+  <data name="cloaking_path" xml:space="preserve">
+    <value>Правила маскировки:</value>
+  </data>
+  <data name="cloaking_rules_header" xml:space="preserve">
+    <value>Правила маскировки</value>
+  </data>
+  <data name="cloaking_rules_sub_header" xml:space="preserve">
+    <value>(активные правила маскировки)</value>
+  </data>
+  <data name="button_cloaking_add" xml:space="preserve">
+    <value>Добавить новое правило маскировки</value>
+  </data>
+  <data name="button_cloaking_remove" xml:space="preserve">
+    <value>Удалить выбранное правило маскировки</value>
+  </data>
+  <data name="button_cloaking_import" xml:space="preserve">
+    <value>Импорт существующих правил маскировки</value>
+  </data>
+  <data name="button_cloaking_export" xml:space="preserve">
+    <value>Экспорт правил маскировки</value>
+  </data>
+  <data name="rule_window_cloaking_header" xml:space="preserve">
+    <value>Добавить новое правило маскировки</value>
+  </data>
+  <data name="rule_window_cloaking_key_text" xml:space="preserve">
+    <value>Источник правила (пример: www.google.*)</value>
+  </data>
+  <data name="rule_window_cloaking_value_text" xml:space="preserve">
+    <value>Цель правила (пример, forceafesearch.google.com)</value>
+  </data>
+  <data name="forwarding" xml:space="preserve">
+    <value>Переадресация</value>
+  </data>
+  <data name="forwarding_path" xml:space="preserve">
+    <value>Правила переадресации:</value>
+  </data>
+  <data name="forwarding_rules_header" xml:space="preserve">
+    <value>Правила переадресации</value>
+  </data>
+  <data name="forwarding_rules_sub_header" xml:space="preserve">
+    <value>(активные правила переадресации)</value>
+  </data>
+  <data name="button_forwarding_add" xml:space="preserve">
+    <value>Добавить новое правило переадресации</value>
+  </data>
+  <data name="button_forwarding_remove" xml:space="preserve">
+    <value>Удалить выбранное правило переадресации</value>
+  </data>
+  <data name="button_forwarding_import" xml:space="preserve">
+    <value>Импорт существующих правил переадресации</value>
+  </data>
+  <data name="button_forwarding_export" xml:space="preserve">
+    <value>Экспорт правил переадресации</value>
+  </data>
+  <data name="rule_window_forwarding_header" xml:space="preserve">
+    <value>Добавить новое правило переадресации</value>
+  </data>
+  <data name="rule_window_forwarding_key_text" xml:space="preserve">
+    <value>Источник правила (eg: example.com)</value>
+  </data>
+  <data name="rule_window_forwarding_value_text" xml:space="preserve">
+    <value>Цель правила (пример, 9.9.9.9,8.8.8.8)</value>
+  </data>
+  <data name="rule_window_add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="rule_window_abort" xml:space="preserve">
+    <value>Прервать</value>
+  </data>
+  <data name="settings_cloak_and_forward" xml:space="preserve">
+    <value>Вкладка &quot;Маскировка&quot;</value>
+  </data>
+  <data name="route_window_title" xml:space="preserve">
+    <value>Маршрут (анонимные ДНС)</value>
+  </data>
+  <data name="route_via" xml:space="preserve">
+    <value>через следующие:</value>
+  </data>
+  <data name="route_drag_from_relays" xml:space="preserve">
+    <value>Перетащите из доступных</value>
+  </data>
+  <data name="configure_routes_add" xml:space="preserve">
+    <value>Добавить маршрут</value>
+  </data>
+  <data name="configure_routes_invalid" xml:space="preserve">
+    <value>Измените маршрут (недопустимые записи)</value>
+  </data>
+  <data name="configure_routes_change" xml:space="preserve">
+    <value>Изменить маршрут</value>
+  </data>
+  <data name="configure_routes_unknown" xml:space="preserve">
+    <value>Измените маршрут (неизвестный статус)</value>
+  </data>
+  <data name="advanced_settings_manage_fallback_resolvers" xml:space="preserve">
+    <value>резервные резольверы</value>
+  </data>
+  <data name="advanced_settings_fallback_resolvers" xml:space="preserve">
+    <value>Резервные резольверы</value>
+  </data>
+  <data name="advanced_settings_fallback_resolvers_content" xml:space="preserve">
+    <value>Это обычные, не зашифрованные DNS-резольверы, которые будут использоваться одноразово при получении начального списка и только в случае, если DNS системы не работает. Они не будут использоваться после: нахождения IP URL-адресов резольверов, если списки уже кэшированы, IP имен хостов известны или работает системный DNS. Для других программ эти резольверы всегда недоступны. Рекомендуется использовать резольверы с поддержкой DNSSEC. В Китае, возможно, придется использовать 114.114.114.114:53. Если указано более одного резольвера, то они будут опробованы последовательно.</value>
+  </data>
+</root>

@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="default_settings_network_cards" xml:space="preserve">
+    <value>Мрежови карти</value>
+  </data>
+  <data name="default_settings_show_hidden_cards" xml:space="preserve">
+    <value>Показване на скритите</value>
+  </data>
+  <data name="default_settings_service_header" xml:space="preserve">
+    <value>Услуги</value>
+  </data>
+  <data name="default_settings_service" xml:space="preserve">
+    <value>DNSCrypt услуга</value>
+  </data>
+  <data name="default_settings_configuration" xml:space="preserve">
+    <value>Конфигурация</value>
+  </data>
+  <data name="default_settings_configuration_ipv4" xml:space="preserve">
+    <value>Използване на IPv4 сървър</value>
+  </data>
+  <data name="default_settings_configuration_ipv4_tooltip" xml:space="preserve">
+    <value>Използване на сървъри, достъпни през IPv4</value>
+  </data>
+  <data name="default_settings_configuration_ipv6" xml:space="preserve">
+    <value>Използване на IPv6 сървър</value>
+  </data>
+  <data name="default_settings_configuration_ipv6_tooltip" xml:space="preserve">
+    <value>Използване на сървъри, достъпни през IPv6 (не активирайте, ако не използвате IPv6 свързаност)</value>
+  </data>
+  <data name="default_settings_configuration_dnssec" xml:space="preserve">
+    <value>Само сървъри с DNSSEC поддръжка</value>
+  </data>
+  <data name="default_settings_configuration_dnssec_tooltip" xml:space="preserve">
+    <value>Сървърът трябва да поддържа разширения за DNS сигурност</value>
+  </data>
+  <data name="default_settings_configuration_nolog" xml:space="preserve">
+    <value>Само сървъри без следене</value>
+  </data>
+  <data name="default_settings_configuration_nolog_tooltip" xml:space="preserve">
+    <value>Сървърът не трябва да следи потребителските запитвания</value>
+  </data>
+  <data name="default_settings_configuration_nofilter" xml:space="preserve">
+    <value>Само сървъри без филтри</value>
+  </data>
+  <data name="default_settings_configuration_nofilter_tooltip" xml:space="preserve">
+    <value>Сървърът не трябва да налага собствен черен списък (родителски контрол, блокиране на реклами...)</value>
+  </data>
+  <data name="tabitem_mainmenu" xml:space="preserve">
+    <value>Основни</value>
+  </data>
+  <data name="loader_administrative_rights_available" xml:space="preserve">
+    <value>Налични са административни права</value>
+  </data>
+  <data name="loader_administrative_rights_missing" xml:space="preserve">
+    <value>Липсват административни права!</value>
+  </data>
+  <data name="loader_checking_version" xml:space="preserve">
+    <value>Проверка за обновявания . . .</value>
+  </data>
+  <data name="loader_new_version_found" xml:space="preserve">
+    <value>Налична е нова версия: {0}</value>
+  </data>
+  <data name="loader_starting_update" xml:space="preserve">
+    <value>Обновяването започва . . .</value>
+  </data>
+  <data name="loader_update_failed" xml:space="preserve">
+    <value>Обновяване се провали, продължаване . . .</value>
+  </data>
+  <data name="loader_latest_version" xml:space="preserve">
+    <value>Използвате последната версия</value>
+  </data>
+  <data name="loader_unsigned" xml:space="preserve">
+    <value>неподписан</value>
+  </data>
+  <data name="loader_missing" xml:space="preserve">
+    <value>липсва</value>
+  </data>
+  <data name="loader_downloading_signature" xml:space="preserve">
+    <value>Сваляне на подпис . . .</value>
+  </data>
+  <data name="loader_downloading_installer" xml:space="preserve">
+    <value>Сваляне на инсталатор . . .</value>
+  </data>
+  <data name="loader_starting" xml:space="preserve">
+    <value>Стартиране . . .</value>
+  </data>
+  <data name="loader_validate_folder" xml:space="preserve">
+    <value>Валидиране на папка {0}</value>
+  </data>
+  <data name="loader_loading_network_cards" xml:space="preserve">
+    <value>Зареждане на мрежови карти . . .</value>
+  </data>
+  <data name="loader_failed_loading" xml:space="preserve">
+    <value>Не може да зареди {0}</value>
+  </data>
+  <data name="loader_successfully_loaded" xml:space="preserve">
+    <value>{0} успешно заредени</value>
+  </data>
+  <data name="loader_loading" xml:space="preserve">
+    <value>Зареждане {0} . . .</value>
+  </data>
+  <data name="loader_missing_files" xml:space="preserve">
+    <value>Липсват файлове в папка {0}:\n{1}\n\nПомислете за нова инсталация на {2}</value>
+  </data>
+  <data name="loader_all_files_available" xml:space="preserve">
+    <value>Намерени са всички необходими файлове</value>
+  </data>
+  <data name="about" xml:space="preserve">
+    <value>Относно</value>
+  </data>
+  <data name="about_software" xml:space="preserve">
+    <value>Софтуер</value>
+  </data>
+  <data name="about_license" xml:space="preserve">
+    <value>Лиценз</value>
+  </data>
+  <data name="about_view_on_github" xml:space="preserve">
+    <value>Преглед в GitHub</value>
+  </data>
+  <data name="tabitem_querylog" xml:space="preserve">
+    <value>Запитвания</value>
+  </data>
+  <data name="querylog" xml:space="preserve">
+    <value>Дневник със запитвания</value>
+  </data>
+  <data name="querylog_waiting_for_data" xml:space="preserve">
+    <value>изчакване за DNS запитвания</value>
+  </data>
+  <data name="querylog_entry_count" xml:space="preserve">
+    <value>Всички записи:</value>
+  </data>
+  <data name="querylog_source_file" xml:space="preserve">
+    <value>Източник:</value>
+  </data>
+  <data name="querylog_button_clear" xml:space="preserve">
+    <value>Изчистване на списъка</value>
+  </data>
+  <data name="querylog_button_block" xml:space="preserve">
+    <value>Блокиране на избраните</value>
+  </data>
+  <data name="domainblocklog" xml:space="preserve">
+    <value>Дневник с блокирани домейни</value>
+  </data>
+  <data name="domainblocklog_waiting_for_data" xml:space="preserve">
+    <value>изчакване за блокирани DNS запитвания</value>
+  </data>
+  <data name="domainblocklog_entry_count" xml:space="preserve">
+    <value>Всички записи:</value>
+  </data>
+  <data name="domainblocklog_source_file" xml:space="preserve">
+    <value>Източник:</value>
+  </data>
+  <data name="domainblocklog_button_clear" xml:space="preserve">
+    <value>Изчистване на списъка</value>
+  </data>
+  <data name="tabitem_domainblocklog" xml:space="preserve">
+    <value>Блокирани домейни</value>
+  </data>
+  <data name="tabitem_addressblocklog" xml:space="preserve">
+    <value>Блокирани адреси</value>
+  </data>
+  <data name="tabitem_domainblacklist" xml:space="preserve">
+    <value>Блокиране на домейни</value>
+  </data>
+  <data name="tabitem_addressblacklist" xml:space="preserve">
+    <value>Блокиране на адреси</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="settings_domain_blacklist" xml:space="preserve">
+    <value>Раздел &quot;Блокиране на домейни&quot;</value>
+  </data>
+  <data name="settings_address_blacklist" xml:space="preserve">
+    <value>Раздел &quot;Блокиране на адреси&quot;</value>
+  </data>
+  <data name="settings_domain_block" xml:space="preserve">
+    <value>Раздел &quot;Дневник с блокирани домейни&quot;</value>
+  </data>
+  <data name="settings_address_block" xml:space="preserve">
+    <value>Раздел &quot;Дневник с блокирани адреси&quot;</value>
+  </data>
+  <data name="settings_query_log" xml:space="preserve">
+    <value>Раздел &quot;Дневник със запитвания&quot;</value>
+  </data>
+  <data name="tabitem_resolvers" xml:space="preserve">
+    <value>Сървъри</value>
+  </data>
+  <data name="tabitem_advanced_settings" xml:space="preserve">
+    <value>Разширени</value>
+  </data>
+  <data name="settings_advanced_settings" xml:space="preserve">
+    <value>Раздел &quot;Разширени&quot;</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>не</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>отказ</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>добре</value>
+  </data>
+  <data name="dialog_message_uninstall" xml:space="preserve">
+    <value>Искате ли да премахнете услугите, инсталирани в Windows?</value>
+  </data>
+  <data name="dialog_uninstall_title" xml:space="preserve">
+    <value>Деинсталиране на услугата</value>
+  </data>
+  <data name="advanced_settings_uninstall_title" xml:space="preserve">
+    <value>Деинсталиране на услугата</value>
+  </data>
+  <data name="advanced_settings_uninstall_text" xml:space="preserve">
+    <value>Премахване на инсталираната в Windows услуга</value>
+  </data>
+  <data name="advanced_settings_uninstall_button" xml:space="preserve">
+    <value>Премахване на услуга</value>
+  </data>
+  <data name="default_settings_apply_settings" xml:space="preserve">
+    <value>Прилагане</value>
+  </data>
+  <data name="advanced_settings_dnscache" xml:space="preserve">
+    <value>DNS кеш</value>
+  </data>
+  <data name="resolvers_dnscrypt_mode_header" xml:space="preserve">
+    <value>DNSCrypt режим</value>
+  </data>
+  <data name="resolvers_dnscrypt_mode_description" xml:space="preserve">
+    <value>При автоматичен режим се използват всички налични сървъри. dnscrypt-proxy автоматично избира най-бързите.</value>
+  </data>
+  <data name="resolvers_dnscrypt_automatic_mode" xml:space="preserve">
+    <value>Автоматичен режим</value>
+  </data>
+  <data name="disabled" xml:space="preserve">
+    <value>Деактивиран</value>
+  </data>
+  <data name="enabled" xml:space="preserve">
+    <value>Активиран</value>
+  </data>
+  <data name="resolvers_available_resolvers_header" xml:space="preserve">
+    <value>Налични сървъри</value>
+  </data>
+  <data name="loader_redistributable_package_check" xml:space="preserve">
+    <value>Проверка на Microsoft Visual C++ Redistributable за Visual Studio 2017</value>
+  </data>
+  <data name="loader_redistributable_package_already_installed" xml:space="preserve">
+    <value>Microsoft Visual C++ Redistributable за Visual Studio 2017 е вече инсталиран</value>
+  </data>
+  <data name="loader_redistributable_package_installing" xml:space="preserve">
+    <value>Инсталиране: Microsoft Visual C++ Redistributable за Visual Studio 2017</value>
+  </data>
+  <data name="loader_redistributable_package_ready" xml:space="preserve">
+    <value>Microsoft Visual C++ Redistributable за Visual Studio 2017 е инсталиран</value>
+  </data>
+  <data name="message_title_no_server_selected" xml:space="preserve">
+    <value>Няма избрани сървъри</value>
+  </data>
+  <data name="message_content_no_server_selected" xml:space="preserve">
+    <value>Трябва да бъде избран поне един сървър. В противен случай dnscrypt-proxy използва всички сървъри, съответстващи на избраните филтри.</value>
+  </data>
+  <data name="message_title_service_not_running" xml:space="preserve">
+    <value>Услугата не е стартирана</value>
+  </data>
+  <data name="message_content_service_not_running" xml:space="preserve">
+    <value>Първо трябва да стартирате DNSCrypt услугата!</value>
+  </data>
+  <data name="message_title_uninstallation_successful" xml:space="preserve">
+    <value>Деинсталирането е успешно</value>
+  </data>
+  <data name="message_content_uninstallation_successful" xml:space="preserve">
+    <value>Деинсталирането бе успешно! DNS заявките вече не са криптирани.</value>
+  </data>
+  <data name="message_title_uninstallation_error" xml:space="preserve">
+    <value>Грешка при деинсталиране</value>
+  </data>
+  <data name="message_content_uninstallation_error" xml:space="preserve">
+    <value>Деинсталирането не може да се извърши. Опитайте ръчно да спрете услугата и я деинсталирайте отново.</value>
+  </data>
+  <data name="open_log_directory" xml:space="preserve">
+    <value>Отваряне на директорията с дневници</value>
+  </data>
+  <data name="settings_update_auto" xml:space="preserve">
+    <value>Проверка за обновявания при стартиране</value>
+  </data>
+  <data name="settings_update_channel" xml:space="preserve">
+    <value>Канал за обновяване:</value>
+  </data>
+  <data name="advanced_settings_dnscache_content" xml:space="preserve">
+    <value>DNS кеш за намаляне на закъснения и изходящ трафик</value>
+  </data>
+  <data name="advanced_settings_blockipv6" xml:space="preserve">
+    <value>Блокиране на IPv6</value>
+  </data>
+  <data name="advanced_settings_blockipv6_content" xml:space="preserve">
+    <value>Моментално отговаряне с празен отговор на свързани с IPv6 заявки</value>
+  </data>
+  <data name="advanced_settings_forcetcp" xml:space="preserve">
+    <value>Налагане на TCP</value>
+  </data>
+  <data name="advanced_settings_forcetcp_content" xml:space="preserve">
+    <value>Винаги се използва TCP за свързване с висшестоящи сървъри</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Добавяне</value>
+  </data>
+  <data name="message_title_new_whitelist_rule" xml:space="preserve">
+    <value>Добавяне на нов домейн в белия списък с правила</value>
+  </data>
+  <data name="message_content_new_whitelist_rule" xml:space="preserve">
+    <value>Пример: *.example.com, ads.*, *sex*, също така, можете да добавите и списък с правила с разделител запетая</value>
+  </data>
+  <data name="message_title_new_blacklist_rule" xml:space="preserve">
+    <value>Добавяне на нов домейн в черния списък с правила</value>
+  </data>
+  <data name="message_content_new_blacklist_rule" xml:space="preserve">
+    <value>Пример: *.example.com, ads.*, *sex*, също така, можете да добавите и списък с правила с разделител запетая, файл, започващ с file:my-custom-rules.txt или външен URL адрес започващ с http:// или https://</value>
+  </data>
+  <data name="working_dialog_title" xml:space="preserve">
+    <value>Обединяване на списъците . . .</value>
+  </data>
+  <data name="button_select_path" xml:space="preserve">
+    <value>Избиране на път</value>
+  </data>
+  <data name="button_blacklist_build" xml:space="preserve">
+    <value>Създаване на dnscrypt-proxy черен списък</value>
+  </data>
+  <data name="button_blacklist_import" xml:space="preserve">
+    <value>Внасяне на правила</value>
+    <comment>I suggest to change &apos;Import existing blacklist rules&apos; to &apos;Import existing rules&apos; or &apos;Import rules&apos;. In this case you can use one string for Black and White rules (like Select path button)</comment>
+  </data>
+  <data name="button_blacklist_export" xml:space="preserve">
+    <value>Изнасяне на правилата</value>
+    <comment>I suggest to change &apos;Export blacklist rules&apos; to &apos;Export rules&apos;. In this case you can use one string for Black and White rules (like Select path button)</comment>
+  </data>
+  <data name="button_blacklist_remove" xml:space="preserve">
+    <value>Премахване на избраното правило</value>
+    <comment>I suggest to change &apos;Remove selected blacklist rules&apos; to &apos;Remove selected rules&apos;. In this case you can use one string for Black and White rules (like Select path button)</comment>
+  </data>
+  <data name="button_blacklist_add" xml:space="preserve">
+    <value>Добавяне на ново правило</value>
+    <comment>I suggest to change &apos;Add a new blacklist rule&apos; to &apos;Add a new rule&apos; because it run the &apos;Add new domain blacklist rule&apos;. Also in this case you can use one string for Black and White rules (like Select path button)</comment>
+  </data>
+  <data name="button_whitelist_import" xml:space="preserve">
+    <value>Внасяне на правила</value>
+    <comment>I suggest to change &apos;Import existing whitelist rules&apos; to &apos;Import existing rules&apos; or &apos;Import rules&apos;. In this case you can use one string for Black and White rules (like Select path button)</comment>
+  </data>
+  <data name="button_whitelist_export" xml:space="preserve">
+    <value>Изнасяне на правилата</value>
+    <comment>I suggest to change &apos;Export whitelist rules&apos; to &apos;Export rules&apos;. In this case you can use one string for Black and White rules (like Select path button)</comment>
+  </data>
+  <data name="button_whitelist_remove" xml:space="preserve">
+    <value>Премахване на избраното правило</value>
+    <comment>I suggest to change &apos;Remove selected whitelist rules&apos; to &apos;Remove selected rules&apos;. In this case you can use one string for Black and White rules (like Select path button)</comment>
+  </data>
+  <data name="button_whitelist_add" xml:space="preserve">
+    <value>Добавяне на ново правило</value>
+    <comment>I suggest to change &apos;Add a new whitelist rule&apos; to &apos;Add a new rule&apos; because it run the &apos;Add new domain whitelist rule&apos;. Also in this case you can use one string for Black and White rules (like Select path button)</comment>
+  </data>
+  <data name="whitelist_rules_header" xml:space="preserve">
+    <value>Бял списък с правила</value>
+  </data>
+  <data name="whitelist_rules_sub_header" xml:space="preserve">
+    <value>(всички записи се игнорират по време на генерирането на черния списък)</value>
+  </data>
+  <data name="whitelist_rules_path" xml:space="preserve">
+    <value>Бял списък с правила:</value>
+  </data>
+  <data name="blacklist_rules_header" xml:space="preserve">
+    <value>Черен списък с правила</value>
+  </data>
+  <data name="blacklist_rules_sub_header" xml:space="preserve">
+    <value>(всички записи са обединени в черен списък)</value>
+  </data>
+  <data name="blacklist_rules_path" xml:space="preserve">
+    <value>Черен списък с правила:</value>
+  </data>
+  <data name="blacklist_path" xml:space="preserve">
+    <value>Черен списък:</value>
+  </data>
+  <data name="blacklist_header" xml:space="preserve">
+    <value>Черен и бял списък с домейни</value>
+  </data>
+  <data name="advanced_settings_globalresolver" xml:space="preserve">
+    <value>Глобален сървър</value>
+  </data>
+  <data name="advanced_settings_globalresolver_content" xml:space="preserve">
+    <value>Ако искате този компютър да действа като шлюз за други устройства (напр.: смартфони или други компютри)</value>
+  </data>
+  <data name="advanced_settings_fallback_resolver" xml:space="preserve">
+    <value>Резервен сървър</value>
+  </data>
+  <data name="advanced_settings_fallback_resolver_content" xml:space="preserve">
+    <value>Обикновен некриптиран DNS сървър, който ще се използва само за единични заявки при извличане на първоначалния списък със сървъри и само ако системната DNS конфигурация не работи. За хората в Китай може да е необходимо да използват 114.114.114.114:53</value>
+  </data>
+  <data name="trayicon_tooltip" xml:space="preserve">
+    <value>Simple DNSCrypt</value>
+  </data>
+  <data name="trayicon_exit" xml:space="preserve">
+    <value>Изход</value>
+  </data>
+  <data name="address_settings_listen_addresses" xml:space="preserve">
+    <value>Адреси за слушане</value>
+  </data>
+  <data name="address_settings_manage_listen_addresses" xml:space="preserve">
+    <value>Управление</value>
+  </data>
+  <data name="address_settings_description" xml:space="preserve">
+    <value>Списък с локални адреси и портове, които да се използват от dnscrypt-proxy. Могат да бъдат IPv4 и/или IPv6.</value>
+  </data>
+  <data name="address_settings_add" xml:space="preserve">
+    <value>Добавяне на нов адрес</value>
+  </data>
+  <data name="address_settings_remove" xml:space="preserve">
+    <value>Премахване на избрания адрес</value>
+  </data>
+  <data name="address_settings_restore" xml:space="preserve">
+    <value>Възстановяване на стандартните адреси</value>
+  </data>
+  <data name="button_blacklist_clear" xml:space="preserve">
+    <value>Изчистване на всички правила за блокиране</value>
+  </data>
+  <data name="settings_tray_mode" xml:space="preserve">
+    <value>Намаляване в системната област при затваряне</value>
+  </data>
+  <data name="settings_start_in_tray" xml:space="preserve">
+    <value>Стартиране на Simple DNSCrypt в системната област</value>
+  </data>
+  <data name="settings_update_silent" xml:space="preserve">
+    <value>Тихо инсталиране на нови версии</value>
+  </data>
+  <data name="proxy_proxies" xml:space="preserve">
+    <value>Прокси</value>
+  </data>
+  <data name="proxy_manage_proxies" xml:space="preserve">
+    <value>Управление на прокси</value>
+  </data>
+  <data name="proxy_http_header" xml:space="preserve">
+    <value>HTTP/HTTPS прокси</value>
+  </data>
+  <data name="proxy_http_sub" xml:space="preserve">
+    <value>Само за DoH сървъри</value>
+  </data>
+  <data name="proxy_socks_header" xml:space="preserve">
+    <value>SOCKS прокси</value>
+  </data>
+  <data name="proxy_socks_sub" xml:space="preserve">
+    <value>Можете да маршрутизирате всички TCP връзки към локален Tor възел. Tor не поддържа UDP, така че, трябва да включите &quot;Налагане на TCP&quot; в раздел &quot;Разширени&quot; настройки.</value>
+  </data>
+  <data name="advanced_settings_netprobe_timeout" xml:space="preserve">
+    <value>Изчакване за проверка на мрежа</value>
+  </data>
+  <data name="advanced_settings_netprobe_timeout_content" xml:space="preserve">
+    <value>Максимално време (в секунди) за изчакване на мрежова връзка преди инициализиране на прокси сървъра. Полезно е, ако прокси сървърът се стартира автоматично при зареждане, а мрежовата свързаност не е налична веднага. Използвайте 0 за деактивиране.</value>
+  </data>
+  <data name="default_settings_configuration_dnscrypt" xml:space="preserve">
+    <value>DNSCrypt</value>
+  </data>
+  <data name="default_settings_configuration_dnscrypt_tooltip" xml:space="preserve">
+    <value>Използване на сървъри изпълняващи DNSCrypt протокола</value>
+  </data>
+  <data name="default_settings_configuration_doh" xml:space="preserve">
+    <value>DNS-през-HTTPS</value>
+  </data>
+  <data name="default_settings_configuration_doh_tooltip" xml:space="preserve">
+    <value>Използване на сървъри изпълняващи DNS-през-HTTPS протокола</value>
+  </data>
+  <data name="loader_restore_config" xml:space="preserve">
+    <value>Възстановяване {0}</value>
+  </data>
+  <data name="settings_backup_and_restore_config" xml:space="preserve">
+    <value>Архивиране и възстановяване на настройките при обновяване</value>
+  </data>
+  <data name="tabitem_cloakandforward" xml:space="preserve">
+    <value>Маскиране</value>
+  </data>
+  <data name="cloaking" xml:space="preserve">
+    <value>Маскиране</value>
+  </data>
+  <data name="cloaking_path" xml:space="preserve">
+    <value>Правила за маскиране:</value>
+  </data>
+  <data name="cloaking_rules_header" xml:space="preserve">
+    <value>Правила за маскиране</value>
+  </data>
+  <data name="cloaking_rules_sub_header" xml:space="preserve">
+    <value>(активни правила)</value>
+  </data>
+  <data name="button_cloaking_add" xml:space="preserve">
+    <value>Добавяне на ново правило</value>
+  </data>
+  <data name="button_cloaking_remove" xml:space="preserve">
+    <value>Премахване на избраните правила</value>
+  </data>
+  <data name="button_cloaking_import" xml:space="preserve">
+    <value>Внасяне на правила</value>
+  </data>
+  <data name="button_cloaking_export" xml:space="preserve">
+    <value>Изнасяне на правилата</value>
+  </data>
+  <data name="rule_window_cloaking_header" xml:space="preserve">
+    <value>Добавяне на ново правило</value>
+  </data>
+  <data name="rule_window_cloaking_key_text" xml:space="preserve">
+    <value>Източник (напр.: www.google.*)</value>
+  </data>
+  <data name="rule_window_cloaking_value_text" xml:space="preserve">
+    <value>Цел (напр.: forcesafesearch.google.com)</value>
+  </data>
+  <data name="forwarding" xml:space="preserve">
+    <value>Пренасочване</value>
+  </data>
+  <data name="forwarding_path" xml:space="preserve">
+    <value>Правила за пренасочване:</value>
+  </data>
+  <data name="forwarding_rules_header" xml:space="preserve">
+    <value>Правила за пренасочване</value>
+  </data>
+  <data name="forwarding_rules_sub_header" xml:space="preserve">
+    <value>(активни правила)</value>
+  </data>
+  <data name="button_forwarding_add" xml:space="preserve">
+    <value>Добавяне на ново правило</value>
+  </data>
+  <data name="button_forwarding_remove" xml:space="preserve">
+    <value>Премахване на избраните правила</value>
+  </data>
+  <data name="button_forwarding_import" xml:space="preserve">
+    <value>Внасяне на правила</value>
+  </data>
+  <data name="button_forwarding_export" xml:space="preserve">
+    <value>Изнасяне на правилата</value>
+  </data>
+  <data name="rule_window_forwarding_header" xml:space="preserve">
+    <value>Добавяне на ново правило</value>
+  </data>
+  <data name="rule_window_forwarding_key_text" xml:space="preserve">
+    <value>Източник (напр.: example.com)</value>
+  </data>
+  <data name="rule_window_forwarding_value_text" xml:space="preserve">
+    <value>Цел (напр.: 9.9.9.9,8.8.8.8)</value>
+  </data>
+  <data name="rule_window_add" xml:space="preserve">
+    <value>Добавяне</value>
+  </data>
+  <data name="rule_window_abort" xml:space="preserve">
+    <value>Отказ</value>
+  </data>
+  <data name="settings_cloak_and_forward" xml:space="preserve">
+    <value>Раздел &quot;Маскиране&quot;</value>
+  </data>
+  <data name="route_window_title" xml:space="preserve">
+    <value>Маршрут (анонимизиран DNS)</value>
+  </data>
+  <data name="route_via" xml:space="preserve">
+    <value>през следните сървъри:</value>
+  </data>
+  <data name="route_drag_from_relays" xml:space="preserve">
+    <value>Завлачете и пуснете от наличните сървъри</value>
+  </data>
+  <data name="configure_routes_add" xml:space="preserve">
+    <value>Добавяне на маршрут</value>
+  </data>
+  <data name="configure_routes_invalid" xml:space="preserve">
+    <value>Промяна на маршрут (невалидни записи)</value>
+  </data>
+  <data name="configure_routes_change" xml:space="preserve">
+    <value>Промяна на маршрут</value>
+  </data>
+  <data name="configure_routes_unknown" xml:space="preserve">
+    <value>Промяна на маршрут (неизвестно състояние)</value>
+  </data>
+  <data name="advanced_settings_manage_fallback_resolvers" xml:space="preserve">
+    <value>manage fallback resolvers</value>
+  </data>
+  <data name="advanced_settings_fallback_resolvers" xml:space="preserve">
+    <value>Fallback Resolvers</value>
+  </data>
+  <data name="advanced_settings_fallback_resolvers_content" xml:space="preserve">
+    <value>These are normal, non-encrypted DNS resolvers, that will be only used for one-shot queries when retrieving the initial resolvers list, and only if the system DNS configuration doesn&apos;t work. No user application queries will ever be leaked through these resolvers, and they will not be used after IP addresses of resolvers URLs have been found. They will never be used if lists have already been cached, and if stamps don&apos;t include host names without IP addresses. They will not be used if the configured system DNS works. Resolvers supporting DNSSEC are recommended. People in China may need to use 114.114.114.114:53 here. If more than one resolver is specified, they will be tried in sequence.</value>
+  </data>
+</root>

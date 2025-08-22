@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="default_settings_network_cards" xml:space="preserve">
+    <value>ネットワーク</value>
+  </data>
+  <data name="default_settings_show_hidden_cards" xml:space="preserve">
+    <value>すべてのネットワークを表示</value>
+  </data>
+  <data name="default_settings_service_header" xml:space="preserve">
+    <value>サービス</value>
+  </data>
+  <data name="default_settings_service" xml:space="preserve">
+    <value>DNSCrypt サービス</value>
+  </data>
+  <data name="default_settings_configuration" xml:space="preserve">
+    <value>構成</value>
+  </data>
+  <data name="default_settings_configuration_ipv4" xml:space="preserve">
+    <value>IPv4サーバーを使う</value>
+  </data>
+  <data name="default_settings_configuration_ipv4_tooltip" xml:space="preserve">
+    <value>IPv4を使って名前解決をする</value>
+  </data>
+  <data name="default_settings_configuration_ipv6" xml:space="preserve">
+    <value>IPv6サーバーを使う</value>
+  </data>
+  <data name="default_settings_configuration_ipv6_tooltip" xml:space="preserve">
+    <value>IPv6を使って名前解決をする（IPv6非対応の場合は有効化しないでください）</value>
+  </data>
+  <data name="default_settings_configuration_dnssec" xml:space="preserve">
+    <value>DNSSEC対応のみ使う</value>
+  </data>
+  <data name="default_settings_configuration_dnssec_tooltip" xml:space="preserve">
+    <value>DNS Security Extensions（DNSSEC）に対応している必要があります</value>
+  </data>
+  <data name="default_settings_configuration_nolog" xml:space="preserve">
+    <value>ログを記録しないサーバのみ使用</value>
+  </data>
+  <data name="default_settings_configuration_nolog_tooltip" xml:space="preserve">
+    <value>ログを取得しないサーバのみ使用</value>
+  </data>
+  <data name="default_settings_configuration_nofilter" xml:space="preserve">
+    <value>フィルタが無いサーバのみ使用</value>
+  </data>
+  <data name="default_settings_configuration_nofilter_tooltip" xml:space="preserve">
+    <value>独自のブラックリスト(成人コンテンツの禁止、広告ブロック等)を持つサーバを除外</value>
+  </data>
+  <data name="tabitem_mainmenu" xml:space="preserve">
+    <value>メニュー</value>
+  </data>
+  <data name="loader_administrative_rights_available" xml:space="preserve">
+    <value>管理者権限が有効です</value>
+  </data>
+  <data name="loader_administrative_rights_missing" xml:space="preserve">
+    <value>管理者権限が必要です！</value>
+  </data>
+  <data name="loader_checking_version" xml:space="preserve">
+    <value>新しいバージョンを確認</value>
+  </data>
+  <data name="loader_new_version_found" xml:space="preserve">
+    <value>新しいバージョンを見つけました: {0}</value>
+  </data>
+  <data name="loader_starting_update" xml:space="preserve">
+    <value>更新しています</value>
+  </data>
+  <data name="loader_update_failed" xml:space="preserve">
+    <value>更新が失敗しました</value>
+  </data>
+  <data name="loader_latest_version" xml:space="preserve">
+    <value>最新バージョンです</value>
+  </data>
+  <data name="loader_unsigned" xml:space="preserve">
+    <value>未署名です</value>
+  </data>
+  <data name="loader_missing" xml:space="preserve">
+    <value>見つかりません</value>
+  </data>
+  <data name="loader_downloading_signature" xml:space="preserve">
+    <value>署名をダウンロードしています…</value>
+  </data>
+  <data name="loader_downloading_installer" xml:space="preserve">
+    <value>インストーラをダウンロード中</value>
+  </data>
+  <data name="loader_starting" xml:space="preserve">
+    <value>インストールを開始しています</value>
+  </data>
+  <data name="loader_validate_folder" xml:space="preserve">
+    <value>{0} フォルダを検証中</value>
+  </data>
+  <data name="loader_loading_network_cards" xml:space="preserve">
+    <value>ネットワークアダプタを読み込み中…</value>
+  </data>
+  <data name="loader_failed_loading" xml:space="preserve">
+    <value>{0}のロードに失敗しました</value>
+  </data>
+  <data name="loader_successfully_loaded" xml:space="preserve">
+    <value>{0}のロードに成功しました</value>
+  </data>
+  <data name="loader_loading" xml:space="preserve">
+    <value>{0}をロード中…</value>
+  </data>
+  <data name="loader_missing_files" xml:space="preserve">
+    <value>フォルダ{0}の中に以下のファイルが見つかりません\n{1}\n\n{2}の新規インストールを御検討下さい</value>
+  </data>
+  <data name="loader_all_files_available" xml:space="preserve">
+    <value>必要なファイルが全て見つかりました</value>
+  </data>
+  <data name="about" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="about_software" xml:space="preserve">
+    <value>ソフトウェア</value>
+  </data>
+  <data name="about_license" xml:space="preserve">
+    <value>ライセンス</value>
+  </data>
+  <data name="about_view_on_github" xml:space="preserve">
+    <value>GitHubのページを開く</value>
+  </data>
+  <data name="tabitem_querylog" xml:space="preserve">
+    <value>クエリログ</value>
+  </data>
+  <data name="querylog" xml:space="preserve">
+    <value>クエリログ</value>
+  </data>
+  <data name="querylog_waiting_for_data" xml:space="preserve">
+    <value>DNSクエリを待機中</value>
+  </data>
+  <data name="querylog_entry_count" xml:space="preserve">
+    <value>エントリー:</value>
+  </data>
+  <data name="querylog_source_file" xml:space="preserve">
+    <value>ログファイル</value>
+  </data>
+  <data name="querylog_button_clear" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="querylog_button_block" xml:space="preserve">
+    <value>選択をブロック</value>
+  </data>
+  <data name="domainblocklog" xml:space="preserve">
+    <value>ブロックログ</value>
+  </data>
+  <data name="domainblocklog_waiting_for_data" xml:space="preserve">
+    <value>ブロックされたクエリを待機中</value>
+  </data>
+  <data name="domainblocklog_entry_count" xml:space="preserve">
+    <value>エントリー:</value>
+    <comment>ここは画面に表示されたログの数なのでエントリ数とかカウントとかでどうでしょうか。</comment>
+  </data>
+  <data name="domainblocklog_source_file" xml:space="preserve">
+    <value>ソース:</value>
+    <comment>ブロックログタブのsourceだと思われますが、日本語ですとログファイルのほうがわかりやすいかと思います。いずれにしろquery log tabのsourceと統一するべきでしょう</comment>
+  </data>
+  <data name="domainblocklog_button_clear" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="tabitem_domainblocklog" xml:space="preserve">
+    <value>ドメインブロック履歴</value>
+  </data>
+  <data name="tabitem_addressblocklog" xml:space="preserve">
+    <value>アドレスブロック履歴</value>
+  </data>
+  <data name="tabitem_domainblacklist" xml:space="preserve">
+    <value>ブラックリスト</value>
+    <comment>現在、無効化されていますがIPアドレスによるブラックリストが別に登場しそうですのでドメインを付けたほうが良いかと思います。
+Fuzzy</comment>
+  </data>
+  <data name="tabitem_addressblacklist" xml:space="preserve">
+    <value>アドレス ブラックリスト</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="settings_domain_blacklist" xml:space="preserve">
+    <value>ドメインブラックリストタブを表示</value>
+  </data>
+  <data name="settings_address_blacklist" xml:space="preserve">
+    <value>アドレス ブラックリスト タブを表示</value>
+  </data>
+  <data name="settings_domain_block" xml:space="preserve">
+    <value>ドメインブロック履歴タブを表示</value>
+  </data>
+  <data name="settings_address_block" xml:space="preserve">
+    <value>アドレスブロック履歴タブを表示</value>
+  </data>
+  <data name="settings_query_log" xml:space="preserve">
+    <value>クエリログタブを表示</value>
+  </data>
+  <data name="tabitem_resolvers" xml:space="preserve">
+    <value>リゾルバ</value>
+  </data>
+  <data name="tabitem_advanced_settings" xml:space="preserve">
+    <value>詳細設定</value>
+  </data>
+  <data name="settings_advanced_settings" xml:space="preserve">
+    <value>詳細設定タブの表示</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="dialog_message_uninstall" xml:space="preserve">
+    <value>Windowsサービスを削除しますか？</value>
+  </data>
+  <data name="dialog_uninstall_title" xml:space="preserve">
+    <value>サービスの削除</value>
+  </data>
+  <data name="advanced_settings_uninstall_title" xml:space="preserve">
+    <value>サービスの削除</value>
+  </data>
+  <data name="advanced_settings_uninstall_text" xml:space="preserve">
+    <value>Windowsサービスを削除する</value>
+  </data>
+  <data name="advanced_settings_uninstall_button" xml:space="preserve">
+    <value>サービスを削除</value>
+  </data>
+  <data name="default_settings_apply_settings" xml:space="preserve">
+    <value>適用</value>
+  </data>
+  <data name="advanced_settings_dnscache" xml:space="preserve">
+    <value>DNSキャッシュ</value>
+  </data>
+  <data name="resolvers_dnscrypt_mode_header" xml:space="preserve">
+    <value>DNSCryptモード</value>
+  </data>
+  <data name="resolvers_dnscrypt_mode_description" xml:space="preserve">
+    <value>自動モードでは全ての有効なサーバが使用されます。dnscrypt-proxyは自動的に最も速いリゾルバを選択します</value>
+  </data>
+  <data name="resolvers_dnscrypt_automatic_mode" xml:space="preserve">
+    <value>自動モード</value>
+  </data>
+  <data name="disabled" xml:space="preserve">
+    <value>無効</value>
+  </data>
+  <data name="enabled" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="resolvers_available_resolvers_header" xml:space="preserve">
+    <value>使用可能なリゾルバ</value>
+  </data>
+  <data name="loader_redistributable_package_check" xml:space="preserve">
+    <value>Visual Studio 2017 の Microsoft Visual C++ 再頒布可能パッケージの確認</value>
+  </data>
+  <data name="loader_redistributable_package_already_installed" xml:space="preserve">
+    <value>Visual Studio 2017 の Microsoft Visual C++ 再頒布可能パッケージをすでに設定されている</value>
+  </data>
+  <data name="loader_redistributable_package_installing" xml:space="preserve">
+    <value>Visual Studio 2017 の Microsoft Visual C++ 再頒布可能パッケージをインストール</value>
+  </data>
+  <data name="loader_redistributable_package_ready" xml:space="preserve">
+    <value>Visual Studio 2017 の Microsoft Visual C++ 再頒布可能パッケージをインストールしました</value>
+  </data>
+  <data name="message_title_no_server_selected" xml:space="preserve">
+    <value>選択されたサーバーがありません</value>
+  </data>
+  <data name="message_content_no_server_selected" xml:space="preserve">
+    <value>最低でも1つはサーバを選択して下さい。でなければ、dnscrypt-proxyは選択したフィルタに対応する全てのサーバを使用します</value>
+  </data>
+  <data name="message_title_service_not_running" xml:space="preserve">
+    <value>サービスは停止しています</value>
+  </data>
+  <data name="message_content_service_not_running" xml:space="preserve">
+    <value>DnsCryptサービスを最初に実行してください！</value>
+  </data>
+  <data name="message_title_uninstallation_successful" xml:space="preserve">
+    <value>アンインストールしました</value>
+  </data>
+  <data name="message_content_uninstallation_successful" xml:space="preserve">
+    <value>アンインストールは成功しました。DNSクエリは今後、暗号化されません</value>
+  </data>
+  <data name="message_title_uninstallation_error" xml:space="preserve">
+    <value>アンインストールに失敗しました</value>
+  </data>
+  <data name="message_content_uninstallation_error" xml:space="preserve">
+    <value>アンインストールが実行できませんでした。サービスを手動で停止しアンインストールを再度実行して下さい</value>
+  </data>
+  <data name="open_log_directory" xml:space="preserve">
+    <value>ログディレクトリを開く</value>
+  </data>
+  <data name="settings_update_auto" xml:space="preserve">
+    <value>起動時に更新を確認する</value>
+  </data>
+  <data name="settings_update_channel" xml:space="preserve">
+    <value>アップデートチャンネル:</value>
+  </data>
+  <data name="advanced_settings_dnscache_content" xml:space="preserve">
+    <value>DNSキャッシュを利用し待ち時間と外部への接続を削減</value>
+  </data>
+  <data name="advanced_settings_blockipv6" xml:space="preserve">
+    <value>IPv6をブロック</value>
+  </data>
+  <data name="advanced_settings_blockipv6_content" xml:space="preserve">
+    <value>IPv6のクエリに対しすぐに空のレスポンスを返す</value>
+  </data>
+  <data name="advanced_settings_forcetcp" xml:space="preserve">
+    <value>TCPを強制</value>
+  </data>
+  <data name="advanced_settings_forcetcp_content" xml:space="preserve">
+    <value>上り通信にTCPを常に使う</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="message_title_new_whitelist_rule" xml:space="preserve">
+    <value>ホワイトリストに追加する</value>
+  </data>
+  <data name="message_content_new_whitelist_rule" xml:space="preserve">
+    <value>カンマで区切ってルールを追加できます。例: *.example.jp, ads.*, *sex*</value>
+  </data>
+  <data name="message_title_new_blacklist_rule" xml:space="preserve">
+    <value>ブラックリストに追加する</value>
+  </data>
+  <data name="message_content_new_blacklist_rule" xml:space="preserve">
+    <value>カンマで区切ってルールを追加できます。もしくはファイルやURLを指定できます。例: *.example.jp, ads.*, *sex*、file:///my-rules.txt、http://又はhttps://
+</value>
+  </data>
+  <data name="working_dialog_title" xml:space="preserve">
+    <value>リストを更新しました…</value>
+  </data>
+  <data name="button_select_path" xml:space="preserve">
+    <value>選択</value>
+  </data>
+  <data name="button_blacklist_build" xml:space="preserve">
+    <value>dnscrypt-proxy向けブラックリストを構築</value>
+  </data>
+  <data name="button_blacklist_import" xml:space="preserve">
+    <value>ブラックリストにインポート</value>
+  </data>
+  <data name="button_blacklist_export" xml:space="preserve">
+    <value>ブラックリストをエクスポート</value>
+  </data>
+  <data name="button_blacklist_remove" xml:space="preserve">
+    <value>選択したルールを削除</value>
+  </data>
+  <data name="button_blacklist_add" xml:space="preserve">
+    <value>ルールを追加</value>
+  </data>
+  <data name="button_whitelist_import" xml:space="preserve">
+    <value>ホワイトリストにインポート</value>
+  </data>
+  <data name="button_whitelist_export" xml:space="preserve">
+    <value>ホワイトリストをエクスポート</value>
+  </data>
+  <data name="button_whitelist_remove" xml:space="preserve">
+    <value>選択したルールを削除</value>
+  </data>
+  <data name="button_whitelist_add" xml:space="preserve">
+    <value>ルールを追加</value>
+  </data>
+  <data name="whitelist_rules_header" xml:space="preserve">
+    <value>ホワイトリストのルール</value>
+  </data>
+  <data name="whitelist_rules_sub_header" xml:space="preserve">
+    <value>(ブラックリスト生成時にこれらのエントリは無視されます)</value>
+  </data>
+  <data name="whitelist_rules_path" xml:space="preserve">
+    <value>ホワイトリストファイル:</value>
+  </data>
+  <data name="blacklist_rules_header" xml:space="preserve">
+    <value>ブラックリストのルール</value>
+  </data>
+  <data name="blacklist_rules_sub_header" xml:space="preserve">
+    <value>(全エントリがブラックリストに統合されます)</value>
+  </data>
+  <data name="blacklist_rules_path" xml:space="preserve">
+    <value>ブラックリストルール:</value>
+  </data>
+  <data name="blacklist_path" xml:space="preserve">
+    <value>ブラックリストファイル:</value>
+  </data>
+  <data name="blacklist_header" xml:space="preserve">
+    <value>ブラックリストとホワイトリスト</value>
+  </data>
+  <data name="advanced_settings_globalresolver" xml:space="preserve">
+    <value>グローバルリゾルバ</value>
+  </data>
+  <data name="advanced_settings_globalresolver_content" xml:space="preserve">
+    <value>このPCを他の端末のゲートウェイとして利用する場合に選択 (例: スマホや他のPC)</value>
+  </data>
+  <data name="advanced_settings_fallback_resolver" xml:space="preserve">
+    <value>フォールバック リゾルバ</value>
+  </data>
+  <data name="advanced_settings_fallback_resolver_content" xml:space="preserve">
+    <value>通常の非暗号化DNSリゾルバです。システムのDNS設定にてうまくいかない場合に、最初にリゾルバリストを取得する1回のみに使用します。中国国内で必要な場合、114.114.114.114:53を試して下さい</value>
+  </data>
+  <data name="trayicon_tooltip" xml:space="preserve">
+    <value>Simple DNSCrypt</value>
+  </data>
+  <data name="trayicon_exit" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="address_settings_listen_addresses" xml:space="preserve">
+    <value>受信アドレス</value>
+  </data>
+  <data name="address_settings_manage_listen_addresses" xml:space="preserve">
+    <value>リストの管理</value>
+  </data>
+  <data name="address_settings_description" xml:space="preserve">
+    <value>listenするローカルアドレスとポートのリスト。IPv4とIPv6が利用可能です。</value>
+  </data>
+  <data name="address_settings_add" xml:space="preserve">
+    <value>新規アドレスの追加</value>
+  </data>
+  <data name="address_settings_remove" xml:space="preserve">
+    <value>選択したアドレスの削除</value>
+  </data>
+  <data name="address_settings_restore" xml:space="preserve">
+    <value>デフォルトのアドレスに戻す</value>
+  </data>
+  <data name="button_blacklist_clear" xml:space="preserve">
+    <value>すべてのルールを削除</value>
+  </data>
+  <data name="settings_tray_mode" xml:space="preserve">
+    <value>タスクトレイに入れて閉じる</value>
+  </data>
+  <data name="settings_start_in_tray" xml:space="preserve">
+    <value>タスクトレイで実行</value>
+  </data>
+  <data name="settings_update_silent" xml:space="preserve">
+    <value>自動的に最新版にする</value>
+  </data>
+  <data name="proxy_proxies" xml:space="preserve">
+    <value>プロキシ</value>
+  </data>
+  <data name="proxy_manage_proxies" xml:space="preserve">
+    <value>Proxyの管理</value>
+  </data>
+  <data name="proxy_http_header" xml:space="preserve">
+    <value>HTTP/HTTPS プロキシ</value>
+  </data>
+  <data name="proxy_http_sub" xml:space="preserve">
+    <value>DoHサーバ向けのみに使用可</value>
+  </data>
+  <data name="proxy_socks_header" xml:space="preserve">
+    <value>SOCKS プロキシ</value>
+  </data>
+  <data name="proxy_socks_sub" xml:space="preserve">
+    <value>全てのTCP接続をローカルのTorノードにルーティングします。TorはUDPをサポートしません。従って詳細設定の&quot;TCP強制&quot;もONにして下さい</value>
+  </data>
+  <data name="advanced_settings_netprobe_timeout" xml:space="preserve">
+    <value>接続確認のタイムアウト時間</value>
+  </data>
+  <data name="advanced_settings_netprobe_timeout_content" xml:space="preserve">
+    <value>proxyの初期化前にネットワーク接続の確立に最大で何秒待つか設定します。ブート時から自動的にproxyを開始するがネットワーク接続が直ぐには有効にならない場合に使用します。無効化には0を設定します</value>
+  </data>
+  <data name="default_settings_configuration_dnscrypt" xml:space="preserve">
+    <value>DNSCrypt</value>
+  </data>
+  <data name="default_settings_configuration_dnscrypt_tooltip" xml:space="preserve">
+    <value>DNSCryptプロトコルに対応するサーバを使用</value>
+  </data>
+  <data name="default_settings_configuration_doh" xml:space="preserve">
+    <value>DNS over HTTPS</value>
+  </data>
+  <data name="default_settings_configuration_doh_tooltip" xml:space="preserve">
+    <value>DNS over HTTPSプロトコルに対応するサーバを使用</value>
+  </data>
+  <data name="loader_restore_config" xml:space="preserve">
+    <value>{0} を復元</value>
+  </data>
+  <data name="settings_backup_and_restore_config" xml:space="preserve">
+    <value>dnscryptの設定を更新時に保存、復元</value>
+  </data>
+  <data name="tabitem_cloakandforward" xml:space="preserve">
+    <value>宛先変更と転送</value>
+  </data>
+  <data name="cloaking" xml:space="preserve">
+    <value>応答先変更</value>
+  </data>
+  <data name="cloaking_path" xml:space="preserve">
+    <value>変更ルール：</value>
+  </data>
+  <data name="cloaking_rules_header" xml:space="preserve">
+    <value>応答先ルール</value>
+  </data>
+  <data name="cloaking_rules_sub_header" xml:space="preserve">
+    <value>(能動的変更ルール)</value>
+  </data>
+  <data name="button_cloaking_add" xml:space="preserve">
+    <value>ルールを追加</value>
+  </data>
+  <data name="button_cloaking_remove" xml:space="preserve">
+    <value>選択したルールを削除</value>
+  </data>
+  <data name="button_cloaking_import" xml:space="preserve">
+    <value>変更ルールをインポート</value>
+  </data>
+  <data name="button_cloaking_export" xml:space="preserve">
+    <value>変更ルールをエクスポート</value>
+  </data>
+  <data name="rule_window_cloaking_header" xml:space="preserve">
+    <value>応答先変更ルールの追加</value>
+  </data>
+  <data name="rule_window_cloaking_key_text" xml:space="preserve">
+    <value>変更元 （例: www.google.*）</value>
+  </data>
+  <data name="rule_window_cloaking_value_text" xml:space="preserve">
+    <value>変更先 (例：forcesafesearch.google.com)</value>
+  </data>
+  <data name="forwarding" xml:space="preserve">
+    <value>宛先転送</value>
+  </data>
+  <data name="forwarding_path" xml:space="preserve">
+    <value>転送ルール：</value>
+  </data>
+  <data name="forwarding_rules_header" xml:space="preserve">
+    <value>転送ルール</value>
+  </data>
+  <data name="forwarding_rules_sub_header" xml:space="preserve">
+    <value>(能動的転送ルール)</value>
+  </data>
+  <data name="button_forwarding_add" xml:space="preserve">
+    <value>ルールを追加</value>
+  </data>
+  <data name="button_forwarding_remove" xml:space="preserve">
+    <value>選択したルールを削除</value>
+  </data>
+  <data name="button_forwarding_import" xml:space="preserve">
+    <value>転送ルールをインポート</value>
+  </data>
+  <data name="button_forwarding_export" xml:space="preserve">
+    <value>転送ルールをエクスポート</value>
+  </data>
+  <data name="rule_window_forwarding_header" xml:space="preserve">
+    <value>転送ルールを追加</value>
+  </data>
+  <data name="rule_window_forwarding_key_text" xml:space="preserve">
+    <value>転送ルール (例： example.jp)</value>
+  </data>
+  <data name="rule_window_forwarding_value_text" xml:space="preserve">
+    <value>転送先 (例： 9.9.9.9, 8.8.8.8)</value>
+  </data>
+  <data name="rule_window_add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="rule_window_abort" xml:space="preserve">
+    <value>中止</value>
+  </data>
+  <data name="settings_cloak_and_forward" xml:space="preserve">
+    <value>宛先変更と転送タブの表示</value>
+  </data>
+  <data name="route_window_title" xml:space="preserve">
+    <value>Route (Anonymized DNS)</value>
+  </data>
+  <data name="route_via" xml:space="preserve">
+    <value>via following relay(s):</value>
+  </data>
+  <data name="route_drag_from_relays" xml:space="preserve">
+    <value>Drag &amp; Drop from available relays</value>
+  </data>
+  <data name="configure_routes_add" xml:space="preserve">
+    <value>Add route</value>
+  </data>
+  <data name="configure_routes_invalid" xml:space="preserve">
+    <value>Change route (invalid entries)</value>
+  </data>
+  <data name="configure_routes_change" xml:space="preserve">
+    <value>Change route</value>
+  </data>
+  <data name="configure_routes_unknown" xml:space="preserve">
+    <value>Change route (unknown status)</value>
+  </data>
+  <data name="advanced_settings_manage_fallback_resolvers" xml:space="preserve">
+    <value>manage fallback resolvers</value>
+  </data>
+  <data name="advanced_settings_fallback_resolvers" xml:space="preserve">
+    <value>Fallback Resolvers</value>
+  </data>
+  <data name="advanced_settings_fallback_resolvers_content" xml:space="preserve">
+    <value>These are normal, non-encrypted DNS resolvers, that will be only used for one-shot queries when retrieving the initial resolvers list, and only if the system DNS configuration doesn&apos;t work. No user application queries will ever be leaked through these resolvers, and they will not be used after IP addresses of resolvers URLs have been found. They will never be used if lists have already been cached, and if stamps don&apos;t include host names without IP addresses. They will not be used if the configured system DNS works. Resolvers supporting DNSSEC are recommended. People in China may need to use 114.114.114.114:53 here. If more than one resolver is specified, they will be tried in sequence.</value>
+  </data>
+</root>

@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="default_settings_network_cards" xml:space="preserve">
+    <value>Netwerk kaarten</value>
+  </data>
+  <data name="default_settings_show_hidden_cards" xml:space="preserve">
+    <value>Toon verborgen netwerk kaarten</value>
+  </data>
+  <data name="default_settings_service_header" xml:space="preserve">
+    <value>Diensten</value>
+  </data>
+  <data name="default_settings_service" xml:space="preserve">
+    <value>DNSCrypt diensten</value>
+  </data>
+  <data name="default_settings_configuration" xml:space="preserve">
+    <value>Instellingen</value>
+  </data>
+  <data name="default_settings_configuration_ipv4" xml:space="preserve">
+    <value>Gebruik IPv4 servers</value>
+  </data>
+  <data name="default_settings_configuration_ipv4_tooltip" xml:space="preserve">
+    <value>Gebruikt servers bereikbaar over IPv4</value>
+  </data>
+  <data name="default_settings_configuration_ipv6" xml:space="preserve">
+    <value>Gebruik IPv6 servers</value>
+  </data>
+  <data name="default_settings_configuration_ipv6_tooltip" xml:space="preserve">
+    <value>Gebruikt servers bereikbaar over IPv6 (enkel indien IPv6 connectiviteit beschikbaar is)</value>
+  </data>
+  <data name="default_settings_configuration_dnssec" xml:space="preserve">
+    <value>Enkel servers met DNSSEC ondersteuning</value>
+  </data>
+  <data name="default_settings_configuration_dnssec_tooltip" xml:space="preserve">
+    <value>Server moet DNS beveiligingsuitbreidingen ondersteunen</value>
+  </data>
+  <data name="default_settings_configuration_nolog" xml:space="preserve">
+    <value>Enkel servers zonder logging</value>
+  </data>
+  <data name="default_settings_configuration_nolog_tooltip" xml:space="preserve">
+    <value>Servers die geen aanvragen van gebruikers opslaan</value>
+  </data>
+  <data name="default_settings_configuration_nofilter" xml:space="preserve">
+    <value>Enkel servers zonder filter</value>
+  </data>
+  <data name="default_settings_configuration_nofilter_tooltip" xml:space="preserve">
+    <value>Servers die geen gebruik maken van blacklists (voor ouderlijk toezicht, blokkeren van reclame, ...)</value>
+  </data>
+  <data name="tabitem_mainmenu" xml:space="preserve">
+    <value>Hoofdmenu</value>
+  </data>
+  <data name="loader_administrative_rights_available" xml:space="preserve">
+    <value>Administratieve rechten zijn beschikbaar</value>
+  </data>
+  <data name="loader_administrative_rights_missing" xml:space="preserve">
+    <value>Geen administratieve rechten beschikbaar!</value>
+  </data>
+  <data name="loader_checking_version" xml:space="preserve">
+    <value>Zoeken naar nieuwe versies...</value>
+  </data>
+  <data name="loader_new_version_found" xml:space="preserve">
+    <value>Er werd een nieuwe versie gevonden: {0}</value>
+  </data>
+  <data name="loader_starting_update" xml:space="preserve">
+    <value>Update gestart...</value>
+  </data>
+  <data name="loader_update_failed" xml:space="preserve">
+    <value>Update gefaald, ga verder...</value>
+  </data>
+  <data name="loader_latest_version" xml:space="preserve">
+    <value>U gebruikt de nieuwste versie</value>
+  </data>
+  <data name="loader_unsigned" xml:space="preserve">
+    <value>ongetekend</value>
+  </data>
+  <data name="loader_missing" xml:space="preserve">
+    <value>ontbreekt</value>
+  </data>
+  <data name="loader_downloading_signature" xml:space="preserve">
+    <value>Handtekening wordt gedownload...</value>
+  </data>
+  <data name="loader_downloading_installer" xml:space="preserve">
+    <value>Installatieprogramma wordt gedownload...</value>
+  </data>
+  <data name="loader_starting" xml:space="preserve">
+    <value>Wordt gestart...</value>
+  </data>
+  <data name="loader_validate_folder" xml:space="preserve">
+    <value>Map {0} wordt geverifiëerd</value>
+  </data>
+  <data name="loader_loading_network_cards" xml:space="preserve">
+    <value>Netwerk kaarten worden geladen...</value>
+  </data>
+  <data name="loader_failed_loading" xml:space="preserve">
+    <value>Kon {0} niet laden</value>
+  </data>
+  <data name="loader_successfully_loaded" xml:space="preserve">
+    <value>{0} laden geslaagd</value>
+  </data>
+  <data name="loader_loading" xml:space="preserve">
+    <value>Laden van {0} ...</value>
+  </data>
+  <data name="loader_missing_files" xml:space="preserve">
+    <value>Ontbrekende bestanden in map {0}:\n{1}\n\nProbeer {2} opnieuw te installeren</value>
+  </data>
+  <data name="loader_all_files_available" xml:space="preserve">
+    <value>Alle nodige velden werden gevonden</value>
+  </data>
+  <data name="about" xml:space="preserve">
+    <value>Over</value>
+  </data>
+  <data name="about_software" xml:space="preserve">
+    <value>Software</value>
+  </data>
+  <data name="about_license" xml:space="preserve">
+    <value>Licentie</value>
+  </data>
+  <data name="about_view_on_github" xml:space="preserve">
+    <value>Bekijk op GitHub</value>
+  </data>
+  <data name="tabitem_querylog" xml:space="preserve">
+    <value>Logboek</value>
+  </data>
+  <data name="querylog" xml:space="preserve">
+    <value>Logboek</value>
+  </data>
+  <data name="querylog_waiting_for_data" xml:space="preserve">
+    <value>Wachtend op DNS aanvragen</value>
+  </data>
+  <data name="querylog_entry_count" xml:space="preserve">
+    <value>Meldingen:</value>
+  </data>
+  <data name="querylog_source_file" xml:space="preserve">
+    <value>Oorsprong:</value>
+  </data>
+  <data name="querylog_button_clear" xml:space="preserve">
+    <value>Lijst wissen</value>
+  </data>
+  <data name="querylog_button_block" xml:space="preserve">
+    <value>Keuzes blokkeren</value>
+  </data>
+  <data name="domainblocklog" xml:space="preserve">
+    <value>Geblokkeerde domeinen</value>
+  </data>
+  <data name="domainblocklog_waiting_for_data" xml:space="preserve">
+    <value>Wachtend op geblokkeerde DNS aanvragen</value>
+  </data>
+  <data name="domainblocklog_entry_count" xml:space="preserve">
+    <value>Meldingen:</value>
+  </data>
+  <data name="domainblocklog_source_file" xml:space="preserve">
+    <value>Oorsprong:</value>
+  </data>
+  <data name="domainblocklog_button_clear" xml:space="preserve">
+    <value>Lijst wissen</value>
+  </data>
+  <data name="tabitem_domainblocklog" xml:space="preserve">
+    <value>Geblokkeerde domeinen</value>
+  </data>
+  <data name="tabitem_addressblocklog" xml:space="preserve">
+    <value>Geblokkeerde adressen</value>
+  </data>
+  <data name="tabitem_domainblacklist" xml:space="preserve">
+    <value>Zwarte lijst van domeinen</value>
+  </data>
+  <data name="tabitem_addressblacklist" xml:space="preserve">
+    <value>Zwarte lijst van adressen</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>Instellingen</value>
+  </data>
+  <data name="settings_domain_blacklist" xml:space="preserve">
+    <value>Toon &quot;Zwarte lijst van domeinen&quot; tab</value>
+  </data>
+  <data name="settings_address_blacklist" xml:space="preserve">
+    <value>Toon &quot;Zwarte lijst van adressenn&quot; tab</value>
+  </data>
+  <data name="settings_domain_block" xml:space="preserve">
+    <value>Toon &quot;Geblokkeerde domeinen&quot; tab</value>
+  </data>
+  <data name="settings_address_block" xml:space="preserve">
+    <value>Toon &quot;Geblokkeerde adressen&quot; tab</value>
+  </data>
+  <data name="settings_query_log" xml:space="preserve">
+    <value>Toon &quot;Logboek&quot; tab</value>
+  </data>
+  <data name="tabitem_resolvers" xml:space="preserve">
+    <value>Vertalers</value>
+  </data>
+  <data name="tabitem_advanced_settings" xml:space="preserve">
+    <value>Geavanceerde instellingen</value>
+  </data>
+  <data name="settings_advanced_settings" xml:space="preserve">
+    <value>Toon &quot;Geavanceerde instellingen&quot; tab</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>neen</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>afbreken</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="dialog_message_uninstall" xml:space="preserve">
+    <value>Geinstalleerde Windows dienst verwijderen?</value>
+  </data>
+  <data name="dialog_uninstall_title" xml:space="preserve">
+    <value>Dienst wordt verwijderd</value>
+  </data>
+  <data name="advanced_settings_uninstall_title" xml:space="preserve">
+    <value>Dienst wordt verwijderd</value>
+  </data>
+  <data name="advanced_settings_uninstall_text" xml:space="preserve">
+    <value>Verwijder de geïnstalleerde Windows dienst</value>
+  </data>
+  <data name="advanced_settings_uninstall_button" xml:space="preserve">
+    <value>Dienst verwijderen</value>
+  </data>
+  <data name="default_settings_apply_settings" xml:space="preserve">
+    <value>Instellingen toepassen</value>
+  </data>
+  <data name="advanced_settings_dnscache" xml:space="preserve">
+    <value>DNS cache</value>
+  </data>
+  <data name="resolvers_dnscrypt_mode_header" xml:space="preserve">
+    <value>DNSCrypt modus</value>
+  </data>
+  <data name="resolvers_dnscrypt_mode_description" xml:space="preserve">
+    <value>In automatische modus worden alle beschikbare servers gebruikt. Dnscrypt-proxy kiest de snelste vertalers automatisch.</value>
+  </data>
+  <data name="resolvers_dnscrypt_automatic_mode" xml:space="preserve">
+    <value>Automatische modus</value>
+  </data>
+  <data name="disabled" xml:space="preserve">
+    <value>Gedeactiveerd</value>
+  </data>
+  <data name="enabled" xml:space="preserve">
+    <value>Geactiveerd</value>
+  </data>
+  <data name="resolvers_available_resolvers_header" xml:space="preserve">
+    <value>Beschikbare vertalers</value>
+  </data>
+  <data name="loader_redistributable_package_check" xml:space="preserve">
+    <value>Op zoek naar Microsoft Visual C++ Redistributable voor Visual Studio 2017</value>
+  </data>
+  <data name="loader_redistributable_package_already_installed" xml:space="preserve">
+    <value>Microsoft Visual C++ Redistributable voor Visual Studio 2017 is reeds geïnstalleerd</value>
+  </data>
+  <data name="loader_redistributable_package_installing" xml:space="preserve">
+    <value>Microsoft Visual C++ Redistributable voor Visual Studio 2017 wordt geïnstalleerd</value>
+  </data>
+  <data name="loader_redistributable_package_ready" xml:space="preserve">
+    <value>Microsoft Visual C++ Redistributable voor Visual Studio 2017 installatie is afgerond</value>
+  </data>
+  <data name="message_title_no_server_selected" xml:space="preserve">
+    <value>Geen servers gekozen</value>
+  </data>
+  <data name="message_content_no_server_selected" xml:space="preserve">
+    <value>Er moet tenminste één server gekozen zijn. Indien geen servers gekozen zijn, gebruikt dnscrypt-proxy alle servers die aan de ingestelde filters voldoen.</value>
+  </data>
+  <data name="message_title_service_not_running" xml:space="preserve">
+    <value>Dienst niet actief</value>
+  </data>
+  <data name="message_content_service_not_running" xml:space="preserve">
+    <value>De DnsCrypt dienst dient eerst gestart te worden!</value>
+  </data>
+  <data name="message_title_uninstallation_successful" xml:space="preserve">
+    <value>Verwijderen geslaagd</value>
+  </data>
+  <data name="message_content_uninstallation_successful" xml:space="preserve">
+    <value>Verwijderen geslaagd! DNS aanvragen zijn niet langer beveiligd.</value>
+  </data>
+  <data name="message_title_uninstallation_error" xml:space="preserve">
+    <value>Verwijderen niet gelukt</value>
+  </data>
+  <data name="message_content_uninstallation_error" xml:space="preserve">
+    <value>Verwijderen is niet gelukt. Probeer om de dienst manueel te stoppen en probeer opnieuw.</value>
+  </data>
+  <data name="open_log_directory" xml:space="preserve">
+    <value>Logboek openen</value>
+  </data>
+  <data name="settings_update_auto" xml:space="preserve">
+    <value>Zoeken naar nieuwe versies bij het opstarten</value>
+  </data>
+  <data name="settings_update_channel" xml:space="preserve">
+    <value>Kanaal voor updates:</value>
+  </data>
+  <data name="advanced_settings_dnscache_content" xml:space="preserve">
+    <value>DNS buffer voor het versnellen van uitgaande verbindingen</value>
+  </data>
+  <data name="advanced_settings_blockipv6" xml:space="preserve">
+    <value>IPv6 blokkeren</value>
+  </data>
+  <data name="advanced_settings_blockipv6_content" xml:space="preserve">
+    <value>Beantwoord IPv6 aanvragen met een leeg antwoord</value>
+  </data>
+  <data name="advanced_settings_forcetcp" xml:space="preserve">
+    <value>TCP afdwingen</value>
+  </data>
+  <data name="advanced_settings_forcetcp_content" xml:space="preserve">
+    <value>Gebruik altijd TCP om met uitgaande servers te verbinden</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="message_title_new_whitelist_rule" xml:space="preserve">
+    <value>Nieuwe domein regel aan witte lijst toevoegen</value>
+  </data>
+  <data name="message_content_new_whitelist_rule" xml:space="preserve">
+    <value>Voorbeeld: *.voorbeeld.com, reclame.¨*, *seks*, of een kommagescheiden lijst van regels kan toegevoegd worden</value>
+  </data>
+  <data name="message_title_new_blacklist_rule" xml:space="preserve">
+    <value>Nieuwe domein regel aan de zwarte lijst toevoegen</value>
+  </data>
+  <data name="message_content_new_blacklist_rule" xml:space="preserve">
+    <value>Voorbeeld: *.voorbeeld.com, reclame.¨*, *seks*, of een kommagescheiden lijst van regels kan toegevoegd worden. Een bestand dat begint met &quot;file:mijn-regels.txt&quot; of een externe URL beginnend met &quot;http://&quot; of &quot;https://&quot;.</value>
+  </data>
+  <data name="working_dialog_title" xml:space="preserve">
+    <value>Lijsten worden samengevoegd...</value>
+  </data>
+  <data name="button_select_path" xml:space="preserve">
+    <value>Kies een pad</value>
+  </data>
+  <data name="button_blacklist_build" xml:space="preserve">
+    <value>Dnscrypt-proxy zwarte lijst opbouwen</value>
+  </data>
+  <data name="button_blacklist_import" xml:space="preserve">
+    <value>Bestaande zwarte lijst importeren</value>
+  </data>
+  <data name="button_blacklist_export" xml:space="preserve">
+    <value>Zwarte lijst exporteren</value>
+  </data>
+  <data name="button_blacklist_remove" xml:space="preserve">
+    <value>Gekozen zwarte lijst regels verwijderen</value>
+  </data>
+  <data name="button_blacklist_add" xml:space="preserve">
+    <value>Nieuwe regel aan de zwarte lijst toevoegen</value>
+  </data>
+  <data name="button_whitelist_import" xml:space="preserve">
+    <value>Bestaande witte lijst importeren</value>
+  </data>
+  <data name="button_whitelist_export" xml:space="preserve">
+    <value>Witte lijst exporteren</value>
+  </data>
+  <data name="button_whitelist_remove" xml:space="preserve">
+    <value>Gekozen witte lijst regels verwijderen</value>
+  </data>
+  <data name="button_whitelist_add" xml:space="preserve">
+    <value>Nieuwe regel aan de witte lijst toevoegen</value>
+  </data>
+  <data name="whitelist_rules_header" xml:space="preserve">
+    <value>Witte lijst regels</value>
+  </data>
+  <data name="whitelist_rules_sub_header" xml:space="preserve">
+    <value>(alle items worden genegeerd tijdens het genereren van de zwarte lijst)</value>
+  </data>
+  <data name="whitelist_rules_path" xml:space="preserve">
+    <value>Witte lijst regels:</value>
+  </data>
+  <data name="blacklist_rules_header" xml:space="preserve">
+    <value>Zwarte lijst regels</value>
+  </data>
+  <data name="blacklist_rules_sub_header" xml:space="preserve">
+    <value>(alle items worden samengevoegd in een zwarte lijst)</value>
+  </data>
+  <data name="blacklist_rules_path" xml:space="preserve">
+    <value>Zwarte lijst regels:</value>
+  </data>
+  <data name="blacklist_path" xml:space="preserve">
+    <value>Zwarte lijst:</value>
+  </data>
+  <data name="blacklist_header" xml:space="preserve">
+    <value>Domein zwarte- en witte lijst</value>
+  </data>
+  <data name="advanced_settings_globalresolver" xml:space="preserve">
+    <value>Algemene vertaler</value>
+  </data>
+  <data name="advanced_settings_globalresolver_content" xml:space="preserve">
+    <value>Dit toestel als doorgang gebruiken voor andere toestellen (b.v.: smartphones of andere toestellen)</value>
+  </data>
+  <data name="advanced_settings_fallback_resolver" xml:space="preserve">
+    <value>Alternatieve vertaler</value>
+  </data>
+  <data name="advanced_settings_fallback_resolver_content" xml:space="preserve">
+    <value>Dit is een normale, niet geëncrypteerde, DNS vertaler dat eenmalig gebruikt zal worden om een lijst van vertalers op te vragen indien de DNS configuratie van dit systeem niet werkt. Mensen in China moeten hier mogelijks 114.114.114.114:53 gebruiken.</value>
+  </data>
+  <data name="trayicon_tooltip" xml:space="preserve">
+    <value>Simple DNSCrypt</value>
+  </data>
+  <data name="trayicon_exit" xml:space="preserve">
+    <value>Verlaten</value>
+  </data>
+  <data name="address_settings_listen_addresses" xml:space="preserve">
+    <value>Luisterende adressen</value>
+  </data>
+  <data name="address_settings_manage_listen_addresses" xml:space="preserve">
+    <value>Adressen waarop geluisterd wordt beheren</value>
+  </data>
+  <data name="address_settings_description" xml:space="preserve">
+    <value>Lijst van lokale adressen en poorten waarop geluisterd moet worden. Dit kan zowel IPv4 als IPv6 zijn.</value>
+  </data>
+  <data name="address_settings_add" xml:space="preserve">
+    <value>Nieuw luisterend adres toevoegen</value>
+  </data>
+  <data name="address_settings_remove" xml:space="preserve">
+    <value>Gekozen luisterend adres verwijderen</value>
+  </data>
+  <data name="address_settings_restore" xml:space="preserve">
+    <value>Standaard instelling voor luisterende adressen gebruiken</value>
+  </data>
+  <data name="button_blacklist_clear" xml:space="preserve">
+    <value>Zwarte lijst wissen</value>
+  </data>
+  <data name="settings_tray_mode" xml:space="preserve">
+    <value>Minimaliseren naar het systeemvak bij het sluiten</value>
+  </data>
+  <data name="settings_start_in_tray" xml:space="preserve">
+    <value>Simple DNSCrypt in het systeemvak opstarten</value>
+  </data>
+  <data name="settings_update_silent" xml:space="preserve">
+    <value>Nieuwe versies automatisch in de achtergrond installeren</value>
+  </data>
+  <data name="proxy_proxies" xml:space="preserve">
+    <value>Proxies</value>
+  </data>
+  <data name="proxy_manage_proxies" xml:space="preserve">
+    <value>Beheer Proxies</value>
+  </data>
+  <data name="proxy_http_header" xml:space="preserve">
+    <value>HTTP/HTTPS proxy</value>
+  </data>
+  <data name="proxy_http_sub" xml:space="preserve">
+    <value>Alleen voor DoH servers</value>
+  </data>
+  <data name="proxy_socks_header" xml:space="preserve">
+    <value>SOCKS proxy</value>
+  </data>
+  <data name="proxy_socks_sub" xml:space="preserve">
+    <value>U kunt alle TCP-verbindingen naar een lokaal Tor-knooppunt routeren. Tor biedt geen ondersteuning voor UDP, dus u moet &quot;TCP Afdwingen&quot; (geavanceerde instellingen) ook inschakelen.</value>
+  </data>
+  <data name="advanced_settings_netprobe_timeout" xml:space="preserve">
+    <value>Netprobe time-out</value>
+  </data>
+  <data name="advanced_settings_netprobe_timeout_content" xml:space="preserve">
+    <value>Maximale tijd (in seconden) om te wachten op een verbinding voordat u de proxy initialiseert. Handig als de proxy automatisch wordt gestart bij het opstarten en de netwerkverbinding niet gegarandeerd direct beschikbaar is. Gebruik 0 om uit te schakelen.</value>
+  </data>
+  <data name="default_settings_configuration_dnscrypt" xml:space="preserve">
+    <value>DNSCrypt</value>
+  </data>
+  <data name="default_settings_configuration_dnscrypt_tooltip" xml:space="preserve">
+    <value>Gebruik servers die het DNSCrypt-protocol implementeren</value>
+  </data>
+  <data name="default_settings_configuration_doh" xml:space="preserve">
+    <value>DNS-over-HTTPS (DoH)</value>
+  </data>
+  <data name="default_settings_configuration_doh_tooltip" xml:space="preserve">
+    <value>Gebruik servers die het DNS-over-HTTPS-protocol (DoH) implementeren</value>
+  </data>
+  <data name="loader_restore_config" xml:space="preserve">
+    <value>Herstel {0}</value>
+  </data>
+  <data name="settings_backup_and_restore_config" xml:space="preserve">
+    <value>Back-up en herstel de dnscrypt-configuratie na een update</value>
+  </data>
+  <data name="tabitem_cloakandforward" xml:space="preserve">
+    <value>Verhullen en doorsturen</value>
+  </data>
+  <data name="cloaking" xml:space="preserve">
+    <value>Verhulling</value>
+  </data>
+  <data name="cloaking_path" xml:space="preserve">
+    <value>Regels voor verhulling:</value>
+  </data>
+  <data name="cloaking_rules_header" xml:space="preserve">
+    <value>Regels voor verhulling</value>
+  </data>
+  <data name="cloaking_rules_sub_header" xml:space="preserve">
+    <value>(actieve regels voor verhulling)</value>
+  </data>
+  <data name="button_cloaking_add" xml:space="preserve">
+    <value>Voeg een nieuwe regel voor verhulling toe</value>
+  </data>
+  <data name="button_cloaking_remove" xml:space="preserve">
+    <value>Verwijder de geselecteerde regel voor verhulling</value>
+  </data>
+  <data name="button_cloaking_import" xml:space="preserve">
+    <value>Importeer bestaande regels voor verhulling</value>
+  </data>
+  <data name="button_cloaking_export" xml:space="preserve">
+    <value>Exporteer regels voor verhulling</value>
+  </data>
+  <data name="rule_window_cloaking_header" xml:space="preserve">
+    <value>Voeg een nieuwe regel voor verhulling toe</value>
+  </data>
+  <data name="rule_window_cloaking_key_text" xml:space="preserve">
+    <value>Bron van de regel (bijv.: www.google.com)</value>
+  </data>
+  <data name="rule_window_cloaking_value_text" xml:space="preserve">
+    <value>Doel van de regel (bijv.: www.google.nl)</value>
+  </data>
+  <data name="forwarding" xml:space="preserve">
+    <value>Doorsturen</value>
+  </data>
+  <data name="forwarding_path" xml:space="preserve">
+    <value>Regels voor doorsturen:</value>
+  </data>
+  <data name="forwarding_rules_header" xml:space="preserve">
+    <value>Regels voor doorsturen</value>
+  </data>
+  <data name="forwarding_rules_sub_header" xml:space="preserve">
+    <value>(actieve regels voor doorsturen)</value>
+  </data>
+  <data name="button_forwarding_add" xml:space="preserve">
+    <value>Voeg een nieuwe regel voor doorsturen toe</value>
+  </data>
+  <data name="button_forwarding_remove" xml:space="preserve">
+    <value>Verwijder de geselecteerde regel voor doorsturen</value>
+  </data>
+  <data name="button_forwarding_import" xml:space="preserve">
+    <value>Importeer bestaande regels voor doorsturen</value>
+  </data>
+  <data name="button_forwarding_export" xml:space="preserve">
+    <value>Exporteer regels voor doorsturen</value>
+  </data>
+  <data name="rule_window_forwarding_header" xml:space="preserve">
+    <value>Voeg een nieuwe regel voor doorsturen toe</value>
+  </data>
+  <data name="rule_window_forwarding_key_text" xml:space="preserve">
+    <value>Bron van de regel (bijv.: thepiratebay.org)</value>
+  </data>
+  <data name="rule_window_forwarding_value_text" xml:space="preserve">
+    <value>Doel van de regel (bijv.: thepiratebay3.org)</value>
+  </data>
+  <data name="rule_window_add" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="rule_window_abort" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="settings_cloak_and_forward" xml:space="preserve">
+    <value>Laat het &quot;Verhullen en doorsturen&quot; tabblad zien</value>
+  </data>
+  <data name="route_window_title" xml:space="preserve">
+    <value>Route (Anonymized DNS)</value>
+  </data>
+  <data name="route_via" xml:space="preserve">
+    <value>via following relay(s):</value>
+  </data>
+  <data name="route_drag_from_relays" xml:space="preserve">
+    <value>Drag &amp; Drop from available relays</value>
+  </data>
+  <data name="configure_routes_add" xml:space="preserve">
+    <value>Add route</value>
+  </data>
+  <data name="configure_routes_invalid" xml:space="preserve">
+    <value>Change route (invalid entries)</value>
+  </data>
+  <data name="configure_routes_change" xml:space="preserve">
+    <value>Change route</value>
+  </data>
+  <data name="configure_routes_unknown" xml:space="preserve">
+    <value>Change route (unknown status)</value>
+  </data>
+  <data name="advanced_settings_manage_fallback_resolvers" xml:space="preserve">
+    <value>manage fallback resolvers</value>
+  </data>
+  <data name="advanced_settings_fallback_resolvers" xml:space="preserve">
+    <value>Fallback Resolvers</value>
+  </data>
+  <data name="advanced_settings_fallback_resolvers_content" xml:space="preserve">
+    <value>These are normal, non-encrypted DNS resolvers, that will be only used for one-shot queries when retrieving the initial resolvers list, and only if the system DNS configuration doesn&apos;t work. No user application queries will ever be leaked through these resolvers, and they will not be used after IP addresses of resolvers URLs have been found. They will never be used if lists have already been cached, and if stamps don&apos;t include host names without IP addresses. They will not be used if the configured system DNS works. Resolvers supporting DNSSEC are recommended. People in China may need to use 114.114.114.114:53 here. If more than one resolver is specified, they will be tried in sequence.</value>
+  </data>
+</root>
