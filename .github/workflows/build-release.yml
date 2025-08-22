@@ -81,111 +81,70 @@ jobs:
     - name: Create MSI installer
       shell: powershell
       run: |
-        # 创建WiX配置文件
-        $wxsContent = @"
-<?xml version="1.0" encoding="UTF-8"?>
-<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-  <Product Id="*"
-           Name="SimpleDNSCrypt"
-           Language="1033"
-           Version="$env:VERSION.0"
-           Manufacturer="bitbeans"
-           UpgradeCode="A3B2C1D4-E5F6-7890-ABCD-EF1234567890">
-
-    <Package InstallerVersion="200"
-             Compressed="yes"
-             InstallScope="perMachine"
-             Description="SimpleDNSCrypt - A simple management tool for dnscrypt-proxy" />
-
-    <MajorUpgrade DowngradeErrorMessage="A newer version of SimpleDNSCrypt is already installed." />
-    <MediaTemplate EmbedCab="yes" />
-
-    <Feature Id="ProductFeature" Title="SimpleDNSCrypt" Level="1">
-      <ComponentGroupRef Id="ProductComponents" />
-      <ComponentRef Id="ApplicationShortcut" />
-      <ComponentRef Id="DesktopShortcut" />
-    </Feature>
-
-    <Directory Id="TARGETDIR" Name="SourceDir">
-      <Directory Id="ProgramFilesFolder">
-        <Directory Id="ManufacturerFolder" Name="bitbeans">
-          <Directory Id="INSTALLFOLDER" Name="Simple DNSCrypt x64" />
-        </Directory>
-      </Directory>
-      <Directory Id="ProgramMenuFolder">
-        <Directory Id="ApplicationProgramsFolder" Name="SimpleDNSCrypt"/>
-      </Directory>
-      <Directory Id="DesktopFolder" Name="Desktop"/>
-    </Directory>
-
-    <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
-      <Component Id="MainExecutable" Guid="*">
-        <File Id="SimpleDnsCryptExe"
-              Source="SimpleDnsCrypt\bin\Release\net48\SimpleDnsCrypt.exe"
-              KeyPath="yes" />
-        <File Id="SimpleDnsCryptConfig"
-              Source="SimpleDnsCrypt\bin\Release\net48\SimpleDnsCrypt.exe.config" />
-      </Component>
-
-      <Component Id="DnsCryptProxyFolder" Guid="*">
-        <CreateFolder />
-        <File Id="DnsCryptProxyExe"
-              Source="SimpleDnsCrypt\bin\Release\net48\dnscrypt-proxy\dnscrypt-proxy.exe" />
-        <File Id="DnsCryptProxyToml"
-              Source="SimpleDnsCrypt\bin\Release\net48\dnscrypt-proxy\dnscrypt-proxy.toml" />
-        <File Id="DnsCryptProxyLicense"
-              Source="SimpleDnsCrypt\bin\Release\net48\dnscrypt-proxy\LICENSE" />
-      </Component>
-
-      <Component Id="LocalizationEN" Guid="*">
-        <CreateFolder />
-        <File Id="LocalizationENDll"
-              Source="SimpleDnsCrypt\bin\Release\net48\en\SimpleDnsCrypt.resources.dll" />
-      </Component>
-
-      <Component Id="LocalizationZH" Guid="*">
-        <CreateFolder />
-        <File Id="LocalizationZHDll"
-              Source="SimpleDnsCrypt\bin\Release\net48\zh-hans\SimpleDnsCrypt.resources.dll" />
-      </Component>
-    </ComponentGroup>
-
-    <DirectoryRef Id="ApplicationProgramsFolder">
-      <Component Id="ApplicationShortcut" Guid="*">
-        <Shortcut Id="ApplicationStartMenuShortcut"
-                  Name="SimpleDNSCrypt"
-                  Description="SimpleDNSCrypt - A simple management tool for dnscrypt-proxy"
-                  Target="[#SimpleDnsCryptExe]"
-                  WorkingDirectory="INSTALLFOLDER"/>
-        <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall"/>
-        <RegistryValue Root="HKCU"
-                       Key="Software\bitbeans\SimpleDNSCrypt"
-                       Name="installed"
-                       Type="integer"
-                       Value="1"
-                       KeyPath="yes"/>
-      </Component>
-    </DirectoryRef>
-
-    <DirectoryRef Id="DesktopFolder">
-      <Component Id="DesktopShortcut" Guid="*">
-        <Shortcut Id="ApplicationDesktopShortcut"
-                  Name="SimpleDNSCrypt"
-                  Description="SimpleDNSCrypt - A simple management tool for dnscrypt-proxy"
-                  Target="[#SimpleDnsCryptExe]"
-                  WorkingDirectory="INSTALLFOLDER"/>
-        <RegistryValue Root="HKCU"
-                       Key="Software\bitbeans\SimpleDNSCrypt"
-                       Name="desktop_shortcut"
-                       Type="integer"
-                       Value="1"
-                       KeyPath="yes"/>
-      </Component>
-    </DirectoryRef>
-  </Product>
-</Wix>
-"@
-
+        # Create WiX configuration file with proper version substitution
+        $version = if ($env:VERSION) { $env:VERSION } else { "0.8.0" }
+        
+        # Build the WXS content using string concatenation to avoid YAML parsing issues
+        $wxsHeader = '<?xml version="1.0" encoding="UTF-8"?>' + "`n"
+        $wxsHeader += '<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">' + "`n"
+        $wxsHeader += '  <Product Id="*" Name="SimpleDNSCrypt" Language="1033" Version="' + $version + '.0" Manufacturer="bitbeans" UpgradeCode="A3B2C1D4-E5F6-7890-ABCD-EF1234567890">' + "`n"
+        
+        $wxsPackage = '    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" Description="SimpleDNSCrypt - A simple management tool for dnscrypt-proxy" />' + "`n"
+        $wxsPackage += '    <MajorUpgrade DowngradeErrorMessage="A newer version of SimpleDNSCrypt is already installed." />' + "`n"
+        $wxsPackage += '    <MediaTemplate EmbedCab="yes" />' + "`n"
+        
+        $wxsFeature = '    <Feature Id="ProductFeature" Title="SimpleDNSCrypt" Level="1">' + "`n"
+        $wxsFeature += '      <ComponentGroupRef Id="ProductComponents" />' + "`n"
+        $wxsFeature += '      <ComponentRef Id="ApplicationShortcut" />' + "`n"
+        $wxsFeature += '      <ComponentRef Id="DesktopShortcut" />' + "`n"
+        $wxsFeature += '    </Feature>' + "`n"
+        
+        $wxsDirectories = '    <Directory Id="TARGETDIR" Name="SourceDir">' + "`n"
+        $wxsDirectories += '      <Directory Id="ProgramFilesFolder">' + "`n"
+        $wxsDirectories += '        <Directory Id="ManufacturerFolder" Name="bitbeans">' + "`n"
+        $wxsDirectories += '          <Directory Id="INSTALLFOLDER" Name="Simple DNSCrypt x64" />' + "`n"
+        $wxsDirectories += '        </Directory>' + "`n"
+        $wxsDirectories += '      </Directory>' + "`n"
+        $wxsDirectories += '      <Directory Id="ProgramMenuFolder">' + "`n"
+        $wxsDirectories += '        <Directory Id="ApplicationProgramsFolder" Name="SimpleDNSCrypt"/>' + "`n"
+        $wxsDirectories += '      </Directory>' + "`n"
+        $wxsDirectories += '      <Directory Id="DesktopFolder" Name="Desktop"/>' + "`n"
+        $wxsDirectories += '    </Directory>' + "`n"
+        
+        $wxsComponents = '    <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">' + "`n"
+        $wxsComponents += '      <Component Id="MainExecutable" Guid="*">' + "`n"
+        $wxsComponents += '        <File Id="SimpleDnsCryptExe" Source="SimpleDnsCrypt\bin\Release\net48\SimpleDnsCrypt.exe" KeyPath="yes" />' + "`n"
+        $wxsComponents += '        <File Id="SimpleDnsCryptConfig" Source="SimpleDnsCrypt\bin\Release\net48\SimpleDnsCrypt.exe.config" />' + "`n"
+        $wxsComponents += '      </Component>' + "`n"
+        $wxsComponents += '      <Component Id="DnsCryptProxyFolder" Guid="*">' + "`n"
+        $wxsComponents += '        <CreateFolder />' + "`n"
+        $wxsComponents += '        <File Id="DnsCryptProxyExe" Source="SimpleDnsCrypt\bin\Release\net48\dnscrypt-proxy\dnscrypt-proxy.exe" />' + "`n"
+        $wxsComponents += '        <File Id="DnsCryptProxyToml" Source="SimpleDnsCrypt\bin\Release\net48\dnscrypt-proxy\dnscrypt-proxy.toml" />' + "`n"
+        $wxsComponents += '        <File Id="DnsCryptProxyLicense" Source="SimpleDnsCrypt\bin\Release\net48\dnscrypt-proxy\LICENSE" />' + "`n"
+        $wxsComponents += '      </Component>' + "`n"
+        $wxsComponents += '    </ComponentGroup>' + "`n"
+        
+        $wxsShortcuts = '    <DirectoryRef Id="ApplicationProgramsFolder">' + "`n"
+        $wxsShortcuts += '      <Component Id="ApplicationShortcut" Guid="*">' + "`n"
+        $wxsShortcuts += '        <Shortcut Id="ApplicationStartMenuShortcut" Name="SimpleDNSCrypt" Description="SimpleDNSCrypt - A simple management tool for dnscrypt-proxy" Target="[#SimpleDnsCryptExe]" WorkingDirectory="INSTALLFOLDER"/>' + "`n"
+        $wxsShortcuts += '        <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall"/>' + "`n"
+        $wxsShortcuts += '        <RegistryValue Root="HKCU" Key="Software\bitbeans\SimpleDNSCrypt" Name="installed" Type="integer" Value="1" KeyPath="yes"/>' + "`n"
+        $wxsShortcuts += '      </Component>' + "`n"
+        $wxsShortcuts += '    </DirectoryRef>' + "`n"
+        $wxsShortcuts += '    <DirectoryRef Id="DesktopFolder">' + "`n"
+        $wxsShortcuts += '      <Component Id="DesktopShortcut" Guid="*">' + "`n"
+        $wxsShortcuts += '        <Shortcut Id="ApplicationDesktopShortcut" Name="SimpleDNSCrypt" Description="SimpleDNSCrypt - A simple management tool for dnscrypt-proxy" Target="[#SimpleDnsCryptExe]" WorkingDirectory="INSTALLFOLDER"/>' + "`n"
+        $wxsShortcuts += '        <RegistryValue Root="HKCU" Key="Software\bitbeans\SimpleDNSCrypt" Name="desktop_shortcut" Type="integer" Value="1" KeyPath="yes"/>' + "`n"
+        $wxsShortcuts += '      </Component>' + "`n"
+        $wxsShortcuts += '    </DirectoryRef>' + "`n"
+        
+        $wxsFooter = '  </Product>' + "`n"
+        $wxsFooter += '</Wix>'
+        
+        # Combine all parts
+        $wxsContent = $wxsHeader + $wxsPackage + $wxsFeature + $wxsDirectories + $wxsComponents + $wxsShortcuts + $wxsFooter
+        
+        # Write to file
         $wxsContent | Out-File -FilePath "SimpleDnsCrypt.wxs" -Encoding UTF8
 
         # 编译WiX
@@ -195,7 +154,7 @@ jobs:
           exit 1
         }
 
-        & light.exe -ext WixUIExtension SimpleDnsCrypt.wixobj -out "dist\SimpleDnsCrypt-$env:VERSION-x64-setup.msi"
+        & light.exe -ext WixUIExtension SimpleDnsCrypt.wixobj -out "dist\SimpleDnsCrypt-$version-x64-setup.msi"
         if ($LASTEXITCODE -ne 0) {
           echo "WiX light linking failed"
           exit 1
