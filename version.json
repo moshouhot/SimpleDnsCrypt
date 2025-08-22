@@ -1,0 +1,17 @@
+{
+  "version": "0.8.0",
+  "build": "1",
+  "name": "SimpleDNSCrypt",
+  "description": "A simple management tool for dnscrypt-proxy",
+  "author": "bitbeans",
+  "homepage": "https://github.com/moshouhot/SimpleDnsCrypt",
+  "license": "MIT",
+  "changelog": {
+    "0.8.0": [
+      "GitHub Actions自动构建支持",
+      "支持DNS加密功能",
+      "图形界面管理工具",
+      "支持多种DNS服务器配置"
+    ]
+  }
+}
